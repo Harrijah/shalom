@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rajdhani&display=swap');
+
+:root{
+  --color01: #FDFFFC;
+  --color02: #D6D8FF;
+  --color03: #FFFFF0;
+  --color04: #FFD6FC;
+  --color05: #FFF9E3;
+  /* --color06: #FDFFFC; */
+  --color07: #994543;
+}
+
+body{
+  background: var(--color03);
+}
+.bann-content{
+  position: relative;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.bann-content02{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.border-me{
+  background-color: var(--color05);
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 1px var(--color04);
+  border-radius: 5px;
+}
+.border-me02{
+  background-color: var(--color05);
+  margin: 20px;
+  border: solid 2px var(--color04);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.separator01{
+  position: relative;
+  text-align: center;
+  margin: 10px auto;
+  width: 150px;
+  border-bottom: double 5px var(--color07);
+}
+.separator02{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  border-bottom: double 5px var(--color07);
+}
+h2, .bann02 h3, .formules-para{
+  margin-bottom: 0;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px var(--color07);
+}
+
+/* *****************  Menu  ********************** */
+nav{
+  position: relative;
+  display: block;
+  background-color: var(--color07);
+}
+.menulist ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: var(--color07); */
+}
+.menulist li{
+  display: inline-block;
+}
+.menu li a, .dropdown-content li a, .dropbtn{
+  display: block;
+  color: var(--color01);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+}
+.menu li a:hover, .dropdown-content a:hover, .active{
+  background: var(--color04);
+  color: black;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: var(--color07);
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px black; */
+  z-index: 1;
+}
+.dropdown-content li{
+  display: block;
+}
+.internmenu:hover .dropdown-content{display: block;}
+.internmenu:hover .dropbtn{
+  background-color: var(--color04);
+  color: black;
+}
+
+/* ***************************** Bannière principale ****************************************** */
+.image-cont{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/shalom02.jpg') center/cover;
+}
+.vide{
+  position: relative;
+  width:30%;
+}
+.slogan{
+  position: relative;
+  width: 69%;
+
+}
+.image-cont span{
+  font-size: 8rem;
+}
+.image-cont h1{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+  font-family: 'Pacifico', sans-serif;
+  color: var(--color01);
+  text-shadow: 2px 2px 1px var(--color02);
+}
+
+/* ******************************* First text ************************************ */
+.bann-content h2{
+  text-align: center;
+}
+.bann-content .mytext01{
+  position: relative;
+  min-width: 375px;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* ************************************* Bannière 02 ******************************************  */
+.bann02{
+  position: relative;
+  margin: 40px auto;
+}
+/* .princ-act{
+  position: relative;
+} */
+.service-card{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 250px;
+  width: 40%;
+  max-width: 500px;
+}
+.service-img{
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 185px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+.service-text{
+  margin: auto;
+  height: 200px;
+  padding: 10px 20px;
+}
+.activit-img{
+  position: relative;
+  height: 200px;
+  object-position: center;
+}
+.service-card h3{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px var(--color07);
+}
+.service-card p{
+  text-align: justify;
+}
+
+/* **************************** Bannière 03 *************************************  */
+.roll-image{
+  position: relative;
+  display: flex;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)70%), url('../image/roll.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 30px;
+}
+.qui{
+  position: relative;
+  width:69%;
+}
+.qui-text{
+  position: relative;
+  margin: 0px 20px;
+  /* padding: 20px; */
+  background: var(--color03);
+}
+.qui-text ul{
+  position: relative;
+  list-style-type: square;
+  margin: 0;
+  padding: 5px 20px;
+}
+
+/* ************************ Le mot du Dr ************************************** */
+.doctor-word{
+  position: relative;
+  margin: 40px 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 400px;
+  width: 90%;
+}
+/* .doctor-word h2{
+  text-align: left;
+} */
+
+.prez{
+  position: relative;
+  height: 175px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+  background: var(--color03);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 4px var(--color04);
+}
+
+
+/* ***********************************  Nos activités ************************************** */
+.activites{
+  position: relative;
+  margin: auto;
+  width: 100%;
+
+}
+.det-act{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+}
+.act-card{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 185px;
+  width: 15vw;
+  max-width: 500px;
+  height: 275px;
+}
+.act-card img{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+.act-card h3{
+  text-align: center;
+}
+
+/* ************************** Internat/Externat ********************************* */
+.internat, .externat{
+  position: relative;
+  min-width: 300px;
+  width: 70%;
+  max-width: 700px;
+}
+.bann02 h2, .bann02 h3, .formules-para{
+  text-align: center;
+}
+
+/* ************************** Nous contacter ********************************* */
+
+textarea, input{
+  display: block;
+  margin: 5px auto;
+  padding: 3px;
+  min-width: 250px;
+  width: 100%;
+  max-width: 600px;
+  border: solid 1px var(--color04);
+  border-radius: 5px;
+}
+input{
+  height: 50px;
+}
+textarea{
+  resize: vertical;
+}
+
+/* ********************************* Footer *********************************** */
+.footer-section{
+  position: relative;
+  display: grid;
+  width: 100%;
+  min-height: 300px;
+  color: white;
+  background-color: var(--color07);
+  grid-template-columns: 50% 20% 30%;
+  grid-template-areas: "fi fm fc";
+}
+.footer-section a{
+  color: white;
+}
+.footer-section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-info{
+  position: relative;
+  grid-area: fi;
+  margin: 10px;
+  padding: 10px;
+}
+.footer-menu{
+  position: relative;
+  grid-area: fm;
+  margin: 10px;
+  padding: 10px;
+}
+.footer-contact{
+  position: relative;
+  grid-area: fc;
+  margin: 10px;
+  padding: 10px;
+}
