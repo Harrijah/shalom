@@ -6,7 +6,7 @@
                     <img src="<?php echo base_url('image/nutri.jpg'); ?>" class="activit-img" alt="Nutri-thérapie">
                 </div>
                 <div class="service-text">
-                    <h3>Nutri-thérapie</h3>
+                    <h3>Nutri-thérapie bref</h3>
                     <p>En leur apprenant une alimentation adaptée par la Nutrithérapie (ou en prise en charge nutritionnelles pour les internats)</p>
                 </div>
             </div>
