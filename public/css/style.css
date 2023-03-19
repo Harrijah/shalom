@@ -232,9 +232,9 @@ nav{
   min-width: 400px;
   width: 90%;
 }
-/* .doctor-word h2{
+.doctor-word h2{
   text-align: left;
-} */
+}
 
 .prez{
   position: relative;
@@ -266,9 +266,9 @@ nav{
   display: inline-block;
   vertical-align: middle;
   min-width: 185px;
-  width: 15vw;
+  width: 10vw;
   max-width: 500px;
-  height: 275px;
+  height: 260px;
 }
 .act-card img{
   position: relative;
