@@ -158,8 +158,8 @@ nav{
 .myservices{
   position: relative;
   display: grid;
-  grid-template-columns: 11% 26% 26% 26% 11%;
-  grid-template-areas: "vide01 s1 s2 s3 vide02";
+  grid-template-columns: 4% 23% 23% 23% 23% 4%;
+  grid-template-areas: "vide01 s4 s1 s2 s3 vide02";
 }
 .service-card{
   position: relative;
@@ -180,6 +180,9 @@ nav{
 }
 .service03{
   grid-area: s3;
+}
+.service04{
+  grid-area: s4;
 }
 .service-img{
   position: relative;
@@ -332,7 +335,7 @@ textarea, input{
   padding: 3px;
   min-width: 250px;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   border: solid 1px var(--color04);
   border-radius: 5px;
 }
@@ -386,11 +389,11 @@ textarea{
 @media screen and (max-width: 1100px) {
   .myservices{
     display: grid;
-    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-columns: 12% 38% 38% 12%;
     grid-template-rows: 400px 400px;
     grid-template-areas: 
-    "vide01 s1 s2 vide02"
-    "vide01 s3 s3 vide02";
+    "vide01 s4 s1 vide02"
+    "vide01 s2 s3 vide02";
   }
   .bann-content02{
     display: block;

@@ -4,9 +4,19 @@
             <!-- <div class="princ-act"> -->
                 <div class="vide01"></div>
                 <div class="vide02"></div>
+
+                <div class="service-card  border-me02 service04">
+                    <div class="service-img">
+                        <img src="<?php echo base_url('image/lit.jpg'); ?>" class="activit-img" alt="Pensionnat"> 
+                    </div>
+                    <div class="service-text">
+                        <h3>Pensionnat</h3>
+                        <p> Shalom - Maison d'Accueil est un lieu unique où nous prenons soin de nos résidents âgés dans un cadre stimulant, encourageant et personnalisé.</p>
+                    </div>
+                </div> 
                 <div class="service-card  border-me02 service01">
                     <div class="service-img">
-                        <img src="<?php echo base_url('image/nutri.jpg'); ?>" class="activit-img" alt="Nutri-thérapie">
+                        <img src="<?php echo base_url('image/cuisine02.jpg'); ?>" class="activit-img" alt="Nutri-thérapie">
                     </div>
                     <div class="service-text">
                         <h3>Nutri-thérapie</h3>
@@ -34,7 +44,7 @@
                         <h3>Ateliers et jeux</h3>
                         <p>Par la mise en place de différents jeux collectifs de stimulation et d’animations qui seront des moyens de rencontre et d’ouverture.</p>
                     </div>
-                </div>  
+                </div>   
             <!-- </div> -->
         </div>
     <!-- </div> -->
