@@ -267,13 +267,13 @@ nav{
   vertical-align: middle;
   min-width: 185px;
   width: 10vw;
-  max-width: 500px;
+  max-width: 400px;
   height: 260px;
 }
 .act-card img{
   position: relative;
   padding: 20px;
-  width: 100%;
+  width: 85%;
   max-width: 300px;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
