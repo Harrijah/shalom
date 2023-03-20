@@ -1,7 +1,7 @@
 <section>
     <div class="bann-content02">
         <div class="form-image">
-            <img src="<?php echo base_url('image/shalom.jpg'); ?>" class="border-me02" alt="les personnes âgées">
+            <img src="<?php echo base_url('image/shalom.jpg'); ?>" class="border-me02 group-image" alt="les personnes âgées">
         </div>
         <div class="form-type">
             <h2>Nous contacter</h2>

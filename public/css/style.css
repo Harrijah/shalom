@@ -23,7 +23,6 @@ body{
   position: relative;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   margin: 20px auto;
   min-width: 400px;
   width: 80vw;
@@ -156,16 +155,31 @@ nav{
   position: relative;
   margin: 40px auto;
 }
-/* .princ-act{
+.myservices{
   position: relative;
-} */
+  display: grid;
+  grid-template-columns: 11% 26% 26% 26% 11%;
+  grid-template-areas: "vide01 s1 s2 s3 vide02";
+}
 .service-card{
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 250px;
-  width: 40%;
-  max-width: 500px;
+  margin: 10px auto;
+  width: 250px;
+}
+.vide01{
+  grid-area: vide01;
+}
+.vide02{
+  grid-area: vide02;
+}
+.service01{
+  grid-area: s1;
+}
+.service02{
+  grid-area: s2;
+}
+.service03{
+  grid-area: s3;
 }
 .service-img{
   position: relative;
@@ -191,7 +205,7 @@ nav{
   text-shadow: 1px 1px 1px var(--color07);
 }
 .service-card p{
-  text-align: justify;
+  text-align: center;
 }
 
 /* **************************** Bannière 03 *************************************  */
@@ -218,9 +232,15 @@ nav{
 }
 .qui-text ul{
   position: relative;
-  list-style-type: square;
+  list-style-type: none;
   margin: 0;
-  padding: 5px 20px;
+  padding: 5px 5px;
+}
+.usercheck{
+  margin: 5px;
+  font-size: 1.5rem;
+  color: var(--color07);
+  text-shadow: 1px 1px 2px black;
 }
 
 /* ************************ Le mot du Dr ************************************** */
@@ -246,7 +266,13 @@ nav{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border: solid 4px var(--color04);
 }
-
+.signature{
+  position: relative;
+  display: block;
+  font-size: 500;
+  font-style: italic;
+  text-align: right;
+}
 
 /* ***********************************  Nos activités ************************************** */
 .activites{
@@ -294,7 +320,12 @@ nav{
 }
 
 /* ************************** Nous contacter ********************************* */
-
+/* .form-image{
+  margin: auto;
+} */
+.group-image{
+  width: 90%;
+}
 textarea, input{
   display: block;
   margin: 5px auto;
@@ -349,3 +380,53 @@ textarea{
   margin: 10px;
   padding: 10px;
 }
+
+
+/* ******************************** Responsive ******************************* */
+@media screen and (max-width: 1100px) {
+  .myservices{
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: 
+    "vide01 s1 s2 vide02"
+    "vide01 s3 s3 vide02";
+  }
+  .bann-content02{
+    display: block;
+  }
+  .internat, .externat{
+    margin: 20px auto;
+  }
+  .footer-section{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "fi fm"
+    "fc fc";
+  }
+}
+@media screen and (max-width: 700px) {
+  h1{
+    margin: auto;
+  }
+  .myservices{
+    display: block;
+  }
+  .roll-image{
+    display: block;
+  }
+  .vide{
+    display: none;
+  }
+  .qui{
+    width: 95%;
+  }
+  .footer-section{
+    position: relative;
+    display: block;
+  }
+}
+/* @media screen and (max-width: 400px){
+} */
