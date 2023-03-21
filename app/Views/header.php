@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?php echo base_url('bootstrap/css/bootstrap.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('bootstrap/css/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('css/style02.css'); ?>">
     <title>Shalom</title>
     </head>
 <body>
@@ -19,7 +20,7 @@
     <div class="logo"></div>
     <div class="menulist">
         <ul class="menu-rubriques">
-            <li class="menuitem"><a href="">Accueil</a></li>
+            <li class="menuitem"><a href="<?php echo base_url(''); ?>">Accueil</a></li>
             <li class="internmenu">
                 <a class="dropbtn">Nos formules</a>
                 <ul class="dropdown-content">
@@ -27,7 +28,7 @@
                     <li><a href="">Externat</a></li>
                 </ul>
             </li>
-            <li class="menuitem"><a href="">A propos de nous</a></li>
+            <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>">A propos de nous</a></li>
             <li class="menuitem"><a href="">Blog</a></li>
             <li class="menuitem"><a href="">Contact</a></li>
         </ul>
