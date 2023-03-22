@@ -1,0 +1,21 @@
+.aboutus-img, .standard-text{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.standard-text{
+    width: 70%;
+}
+@media screen and (max-width:1100px){
+    .standard-text{
+      width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    /* .standard-text{
+      width: 100%;
+    } */
+}

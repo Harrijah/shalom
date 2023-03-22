@@ -55,11 +55,50 @@ body{
   width: 150px;
   border-bottom: double 5px var(--color07);
 }
-h2, .bann02 h3, .formules-para{
+h1, h2, .bann02 h3, .formules-para{
   margin-bottom: 0;
   font-weight: 500;
   text-shadow: 1px 1px 1px var(--color07);
 }
+.standard-image{
+  position: relative;
+  max-height: 300px;
+  /* width: 100%; */
+}
+p{
+  margin: 20px;
+}
+.grid-me{
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "sec01 sec02 sec02"
+  "sep sep sep"
+  "sec03 sec03 sec04";
+}
+.sec01{
+  grid-area: sec01;
+  margin: auto;
+}
+.sec02{
+  grid-area: sec02;
+  margin: auto;
+}
+.sec03{
+  grid-area: sec03;
+  margin: auto;
+}
+.sec04{
+  grid-area: sec04;
+  margin: auto;
+}
+.sep{
+  grid-area: sep;
+  margin: 30px auto;
+}
+
 
 /* *****************  Menu  ********************** */
 nav{
@@ -395,6 +434,20 @@ textarea{
     "vide01 s4 s1 vide02"
     "vide01 s2 s3 vide02";
   }
+  .grid-me{
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "sec01"
+    "sec02"
+    "sec04" 
+    "sec03";
+  }
+  .sep{
+    display: none;
+  }
   .bann-content02{
     display: block;
   }
@@ -411,8 +464,9 @@ textarea{
   }
 }
 @media screen and (max-width: 700px) {
-  h1{
+  .image-cont h1{
     margin: auto;
+    font-size: 3rem;
   }
   .myservices{
     display: block;
