@@ -7,9 +7,9 @@
             <h1>Vieillir en beauté ! </h1>
             <div class="separator02"></div>
             <p class="">
-                La Maison d'accueil Shalom s'engage à améliorer la qualité de vie des personnes âgées en leur offrant une expérience personnalisée et stimulante. Dirigée par un docteur en médecine, Shalom - Maison d'accueil accueille toutes les personnes âgées en bonne santé et celles atteintes de maladies dégénératives liées à l'âge telles qu'Alzheimer ou Parkinson.
+                La Maison d'accueil Shalom s'engage à améliorer la qualité de vie des personnes âgées en leur offrant une expérience personnalisée et stimulante. Dirigée par Dr Josiane Rakotomalala, Shalom - Maison d'accueil accueille toutes les personnes âgées en bonne santé et celles atteintes de maladies dégénératives liées à l'âge telles qu'Alzheimer ou Parkinson.
 
-                Son équipe multidisciplinaire de spécialistes en santé-bien-être, nutrithérapie travaille ensemble pour fournir des soins de qualité et une attention attentive à chaque résident, y compris une alimentation adaptée, des activités physiques douces et des ateliers de thérapie non médicamenteuse.
+                Son équipe multidisciplinaire travaille de plein pieds pour fournir des soins de qualité et une attention attentive à chaque résident, y compris une alimentation adaptée, des activités physiques douces et des ateliers de thérapie non médicamenteuse.
 
             </p>
         </div>
@@ -29,6 +29,14 @@
                 </p>
                 <img src="<?php echo base_url('image/approche02.jpg') ?>" class="standard-image border-me02 sec04" alt="personnes agées avec ballon">               
             </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="bann-content">
+        <h2>Nous prenons soin ...</h2>
+        <div class="wecare">
+            
         </div>
     </div>
 </section>

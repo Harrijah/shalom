@@ -65,7 +65,7 @@ h1, h2, .bann02 h3, .formules-para{
   max-height: 300px;
   /* width: 100%; */
 }
-p{
+.grid-me p{
   margin: 20px;
 }
 .grid-me{
