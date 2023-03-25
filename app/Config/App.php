@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public $baseURL;
+    public string $baseURL;
     
     public function __construct()
     {
