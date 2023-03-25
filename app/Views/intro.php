@@ -1,5 +1,5 @@
 <section>
-    <div class="bann-content">
+    <div class="bann-content intern01">
         <div class="aboutus-img">
             <img src="<?php echo base_url('image/beaute.jpg'); ?>" class="border-me02 activit-img" alt="beauté personne âgée">
         </div> 
