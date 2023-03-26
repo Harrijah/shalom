@@ -8,6 +8,8 @@
             return view('header')
             . view('intro')
             . view('cibles') 
+            . view('equipe')
+            . view('banniere06')
             . view('footer');
         }
     }

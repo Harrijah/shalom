@@ -12,7 +12,7 @@
 }
 
 /* ***************************************** 04 Sections ***************************************************/
-.sec02 h3, .sec03 h3{
+.sec02 h3, .sec03 h3, .doctor h3{
   font-size: 1.5rem;
   text-decoration: underline;
   margin: 0 0 0 20px;
