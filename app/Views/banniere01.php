@@ -3,7 +3,7 @@
         <div class="image-cont">
             <div class="vide"></div>
             <div class="slogan">
-                <h1><span>Shalom</span><br> Maison D'Accueil</h1>
+                <h1><span>Bref</span><br> Maison D'Accueil</h1>
             </div>
         </div>
     </div>
