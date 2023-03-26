@@ -55,10 +55,14 @@ body{
   width: 150px;
   border-bottom: double 5px var(--color07);
 }
+h1{
+  text-align: center;
+  font-family: pacifico;
+}
 h1, h2, .bann02 h3, .formules-para{
   margin-bottom: 0;
-  font-weight: 500;
-  text-shadow: 1px 1px 1px var(--color07);
+  font-weight: 400;
+  text-shadow: 0px 1px 1px var(--color07);
 }
 .standard-image{
   position: relative;
@@ -297,7 +301,7 @@ nav{
   min-width: 400px;
   width: 90%;
 }
-.doctor-word h2{
+.doctor-word h2, .standard-text h2{
   text-align: left;
 }
 

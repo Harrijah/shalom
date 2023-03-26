@@ -7,11 +7,19 @@
     vertical-align: top;
 }
 
-
-
 .standard-text{
     width: 70%;
 }
+
+/* ***************************************** 04 Sections ***************************************************/
+.sec02 h3, .sec03 h3{
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin: 0 0 0 20px;
+  font-weight: 200;
+}
+
+
 @media screen and (max-width:1100px){
     .standard-text{
       width: 100%;

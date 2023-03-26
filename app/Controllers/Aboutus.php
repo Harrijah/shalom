@@ -7,6 +7,7 @@
         {
             return view('header')
             . view('intro')
+            . view('cibles') 
             . view('footer');
         }
     }
