@@ -12,7 +12,7 @@
 }
 
 /* ***************************************** 04 Sections ***************************************************/
-.sec02 h3, .sec03 h3, .doctor h3{
+.sec02 h3, .sec03 h3, .equipe h3{
   font-size: 1.5rem;
   text-decoration: underline;
   margin: 0 0 0 20px;
@@ -20,13 +20,27 @@
 }
 
 
+
+/* ********************************* Notre équipe ************************************** */
+.equipe{
+  position: relative;
+  /* margin: 40px 0; */
+  /* left: 50%;
+  transform: translateX(-50%);
+  min-width: 400px; */
+  width: 90%;
+}
+
+
+/* ********************************** Responsive ************************************** */
+
 @media screen and (max-width:1100px){
-    .standard-text{
-      width: 100%;
-    }
+  .standard-text{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 700px){
-    /* .standard-text{
-      width: 100%;
-    } */
+  /* .standard-text{
+    width: 100%;
+  } */
 }
