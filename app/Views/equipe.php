@@ -62,7 +62,7 @@
             <div class="separator01"></div>
         
             <div class="equipe03">
-                <h3 style="text-align: center;">Un Directeur artistique</h3>
+                <h3 style="text-align: center;">Un Directeur artistique </h3>
                 <p style="margin: 0 20px">
                     Le rôle du directeur artistique chez Shalom - Maison d'Accueil est de créer un environnement stimulant pour les résidents en favorisant des activités créatives telles que la peinture, le chant et la musique. Il vise à stimuler les cinq sens et à encourager les résidents à exprimer leur créativité tout en réduisant les troubles du comportement et l'isolement. Le directeur artistique respecte le rythme et les choix des résidents, tout en cherchant à leur offrir des moments de bonheur et de connexion avec le monde qui les entoure.
                 </p>
