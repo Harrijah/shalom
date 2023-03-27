@@ -38,7 +38,7 @@
             <div class="equipe03">
                 <h3 style="text-align: center;">Trois animatrices</h3>
             <div>
-                <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image prez02 border-me" style="width: 350px; height: auto;">   
+                <!-- <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image prez02 border-me" style="width: 350px; height: auto;">    -->
             </div>
                 <ul>
                     <li>Rôle occupationnel orienté sur des activités thérapeutiques</li>
