@@ -12,20 +12,26 @@
 }
 
 /* ***************************************** 04 Sections ***************************************************/
+.approche{
+  margin-top: 20px;
+}
 .sec02 h3, .sec03 h3, .bann-content03 h3, .equipe h3{
-  font-size: 1.5rem;
   text-decoration: underline;
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px 0;
   font-weight: 200;
 }
 
 /* Nos cibles */
 .mytext02{
   position: relative;
+  padding: 20px;
   min-width: 375px;
   width: 70%;
-  left: 50%;
-  transform: translateX(-50%);
+  background: var(--color05);
+  border: solid 2px var(--color04);
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  /* left: 50%;
+  transform: translateX(-50%); */
   /* text-align: center; */
 }
 
@@ -46,12 +52,20 @@
   /* left: 50%;
   transform: translateX(-50%);
   min-width: 400px; */
-  margin: auto;
-  width: 100%;
+  margin: 10px 10px 0 20px;
+  min-width: 300px;
 }
 .equipe03{
   margin: 35px 0;
 }
+.assistante-img{
+  float: left;
+}
+/* .mydoc{
+  position: relative;
+  top: 50%;
+  transform: translatY(-50%);
+} */
 
 
 /* ********************************** Responsive ************************************** */
@@ -59,6 +73,11 @@
 @media screen and (max-width:1100px){
   .standard-text{
     width: 100%;
+  }
+  .mydoc, .assistante-img{
+    display: block;
+    float: none;
+    margin: auto;
   }
 }
 @media screen and (max-width: 700px){

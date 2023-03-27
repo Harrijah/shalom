@@ -13,6 +13,15 @@
 body{
   background: var(--color03);
 }
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
 .bann-content{
   position: relative;
   margin: 20px auto;
@@ -23,6 +32,7 @@ body{
   position: relative;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 20px auto;
   min-width: 400px;
   width: 80vw;
@@ -42,6 +52,14 @@ body{
   min-width: 400px;
   width: 100%;
 }
+.bann-content05{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin: 20px auto;
+  min-width: 400px;
+}
 .border-me{
   background-color: var(--color05);
   margin: 20px;
@@ -54,7 +72,7 @@ body{
   background-color: var(--color05);
   margin: 20px;
   border: solid 2px var(--color04);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .border-me03{
@@ -84,7 +102,7 @@ h1{
 }
 h1, h2, .bann02 h3, .formules-para{
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 300;
   text-shadow: 0px 1px 1px var(--color07);
 }
 .standard-image{
@@ -92,18 +110,18 @@ h1, h2, .bann02 h3, .formules-para{
   max-width: 400px;
   /* width: 100%; */
 }
-.grid-me p{
+/* .grid-me p{
   margin: 20px;
-}
+} */
 .grid-me{
   position: relative;
   display: grid;
   grid-template-columns: 40% 20% 40%;
   grid-template-rows: auto auto auto;
   grid-template-areas: 
-  "sec01 sec02 sec02"
+  "sec02 sec02 sec01"
   "sep sep sep"
-  "sec03 sec03 sec04";
+  "sec04 sec03 sec03";
 }
 .sec01{
   grid-area: sec01;
@@ -489,8 +507,11 @@ textarea{
   .sep{
     display: none;
   }
-  .bann-content02{
+  .bann-content02, .bann-content04, .bann-content05{
     display: block;
+  }
+  .bann-content05 .mydoc{
+    margin: auto;
   }
   .internat, .externat{
     margin: 20px auto;

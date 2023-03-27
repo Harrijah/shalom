@@ -1,65 +1,43 @@
 <section>
-    <h2 style="text-align:center;">Notre équipe</h2>
-    <div class="separator01"></div>
+    <div class="bann-content">
+        <h2 style="text-align:center;">Notre équipe</h2>
+        
+        <div class="separator01"></div>
+
         <div class="bann-content03 border-me03">
             <div style="margin-bottom: 35px;">
-
             
                 <h3 style="text-align: center;">Un médecin  coordonnateur et gérante du centre</h3>
-                <div>
-                    <img src="<?php echo base_url('image/dr02.fw.png'); ?>" alt="docteur nutrithérapeute" class="standard-image prez02" style="border-bottom: solid 4px var(--color07); width: 350px; height: auto;">   
-                </div>
-                <div class="equipe02">
-                    <ul>
-                    <li>
-                        <span style="text-decoration: underline;">Manager et Leader</span> : Cordonne, gère, organise et supervise toutes les activités du centre. Le médecin effectue le test de tous les entrants et en les classant selon leur état de santé. Il assure la formation de tout le personnel, privilégie le briefing et débriefing avec le personnel.
-                    </li>
-                    <li>
-                        <span style="text-decoration: underline;">Coach en Nutrithérapie</span> (notre aliment = notre médicament) : établit une alimentation équilibrée, apprend les couleurs de la santé, <b>établit une assiette antioxydant, une assiette anti-cancer</b>, fait connaître la pharmacie alimentaire, apprend les interactions alimentaires, établit le menu journalier adapté et individualisé.
-                    </li>
-                    <li>
-                        <span style="text-decoration: underline;">Coach en Santé Bien-être</span> : anime avec des activités sur le ralentissement du vieillissement, la rigologie, la réduction du stress, l'élimination des métaux lourds et  la prévention du dysfonctionnement hormonal, et des conseils sur "comment bien dormir".
-                    </li>
-                    <li>
-                        <span style="text-decoration: underline;">Assurer le développement psychosocial du patient en internat</span> : le travail est centré sur l’individu qui est acteur et participe à son propre épanouissement : le patient est « le sujet » et non « un objet ». Elle renforce la procuration du confort physique et psychologique et assure une prise en charge sociale et spirituelle.
-                    </li>
-                    <li>
-                        <span style="text-decoration: underline;">Assurer la stimulation cognitive</span> : par différents tests et jeux de mémoire, par la Réminiscence. Une des activités consiste à créer des moments d’échange sur leur histoire et maintenir les capacités intellectuelles des résidents du centre.
-                    </li>
-                    <li>
-                        <span style="text-decoration: underline;">Assurer et superviser l’animation en permanence</span> : elle assure l'élaboration des projets du centre, garantit le bon déroulement des activités, assure la diversification des activités afin d'éviter la routine. Elle supervise les différents intervenants, planifie les rencontres programmés et intergénérationnelles, et effectue le bilan mensuel de toutes les activités.
-                    </li>
-                    </ul>
+                <p>
+                    Le Docteur Josiane Rakotomalala a pour mission principale d'assurer le développement psychosocial et la stimulation cognitive de nos résidents que ce soit en internat ou en externat. En effet, le patient est placé au cœur de notre approche et nous le considérons comme un sujet actif de son propre épanouissement plutôt qu'un simple objet de soins. 
+                </p>
+                <p>
+                    Pour ce faire, nous utilisons différentes techniques de stimulation cognitive, telles que des tests et des jeux de mémoire, ainsi que des moments d'échanges sur l'histoire de nos résidents grâce à la Réminiscence. Nous sommes également attachés à assurer une prise en charge sociale et spirituelle complète pour chaque résident afin de procurer un confort physique et psychologique optimal.
+                </p>
+
+                <div class="bann-content05">
+                    <div class="">
+                        <img src="<?php echo base_url('image/dr02.fw.png'); ?>" alt="docteur nutrithérapeute" class="standard-image mydoc" style="border-bottom: solid 4px var(--color07); width: 350px; height: auto;">     
+                    </div>
+                    <div class="equipe02">
+                        <p>
+                            <span style="text-decoration: underline;">Manager et Leader</span> : Elle cordonne, gère, organise et supervise toutes les activités du centre. Elle effectue le test de tous les entrants, en les classant selon leur état de santé. Elle supervise les différents intervenants, et effectue le bilan mensuel des activités du centre.
+                        </p>
+                        <p>
+                            <span style="text-decoration: underline;">Assurer et superviser l’animation en permanence</span> : elle assure l'élaboration et la planification des projets du centre, garantit le bon déroulement des activités, et en assure la diversification afin d'éviter la routine. 
+                        </p>
+                        <p>
+                            <span style="text-decoration: underline;">Coach en Nutrithérapie</span><i> (notre aliment = notre médicament)</i>  : Elle établit une alimentation équilibrée, adaptée et individualisée au quotidien pour les résidents du centre. Elle organise des séances de formation sur la "pharmacie alimentaire"; un sujet qui traite sur les interactions alimentaires, les couleurs de la santé, et l'élaboration de l'<b>assiette antioxydant</b>, ou <b>assiette anti-cancer</b>.
+                        </p>
+                        <p style="margin-bottom: 0;">
+                            <span style="text-decoration: underline;">Coach en Santé Bien-être</span> : Elle propose aux résidents du centre des activités sur le ralentissement du vieillissement comme la rigologie; et traite d'autres sujets comme l'élimination des métaux lourds dans le corps, la réduction du stress, la prévention du dysfonctionnement hormonal, et "comment bien dormir".
+                        </p>
+                    </div> 
                 </div>
             </div>
 
             <div class="separator01"></div>
-
-            <div class="equipe03">
-                <h3 style="text-align: center;">Trois animatrices</h3>
-            <div>
-                <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image prez02 border-me" style="width: 350px; height: auto;">   
-            </div>
-                <ul>
-                    <li>Rôle occupationnel orienté sur des activités thérapeutiques</li>
-                    <li>Dynamiser les activités</li>
-                    <li>Apporter la gaieté et dynamisme à travers les différents ateliers</li>
-                    <li>Prendre en compte la personne âgée et ses attentes</li>
-                    <li>Etre à leur écoute</li>
-                    <li>Donner aux personnes âgées la possibilité de s’exprimer</li>
-                    <li>Favoriser le moment d’échange</li>
-                    <li>Permettre à la personne de s’intégrer le mieux possible dans la collectivité</li>
-                    <li>Partager des moments agréables</li>
-                    <li>Accompagner les personnes âgées dans les sorties, promenades, des jeux de société et des ateliers</li>
-                    <li>Accompagner les personnes en perte d’autonomie physique</li>
-                    <li>Favoriser le travail en équipe</li>
-                    <li>Faire découvrir des activités créatives pouvant favoriser le contact et les émotions</li>
-                    <li>Organiser la transmission de la culture autour des rencontres intergénérationnelles</li>
-                    <li>Maintenir et réhabiliter les liens sociaux des personnes âgées vieillissantes</li>
-                </ul>
-            </div>
-
-            <div class="separator01"></div>
+            
         
             <div class="equipe03">
                 <h3 style="text-align: center;">Un Directeur artistique </h3>
@@ -70,62 +48,77 @@
 
             <div class="separator01"></div>
 
+            <div class="equipe03">
+                <h3 style="text-align: center;">Des animatrices</h3>
+                <div>
+                    <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image border-me02 assistante-img" style="width: 350px; height: auto;">   
+                </div>
+                <p>
+                    Les animatrices chez Shalom - Maison d'Accueil sont des professionnelles engagées et conviviales, qui contribuent à offrir un environnement stimulant et encourageant pour les personnes âgées. Grâce à leur savoir-faire, leur écoute et leur disponibilité, elles permettent à nos résidents de vivre des moments de partage et d'échange, tout en contribuant à leur bien-être physique et mental. <br><br>
+
+                    Elles ont pour objectif de favoriser le moment d'échange et accompagnent également les personnes en perte d'autonomie physique pour leur permettre de participer aux activités proposées, par exemple dans l'organisation des sorties, des promenades, des jeux de société et des ateliers créatifs. <br><br>
+
+                    En étant à l'écoute des attentes des résidents, les animatrices sont en mesure de personnaliser les activités proposées, en leur apportant de la gaieté et du dynamisme en fonction des préférences de chacun. Elles réhabilitent ainsi les liens sociaux des personnes âgées à travers des rencontres intergénérationnelles et offrent aux personnes âgées la possibilité de s'exprimer et de partager des moments agréables avec les autres résidents et membres du personnel.
+                </p>
+            </div>
+
+            <div class="separator01"></div>
+
             <div class="bann-content04">
                 <div class="equipe border-me">
                     <h3 style="text-align: center;">Un coach en Zumba senior</h3>
                     <ul>
-                        <li>En étroite collaboration avec le coach de gymnastique douce</li>
-                        <li>Apprendre des mouvements adaptés et coordonnés sur une chaise ou non (en fonction de l’âge)</li>
-                        <li>Les associer à des chants et danses</li>
+                        <li>Il travaille en étroite collaboration avec le coach de gymnastique douce</li>
+                        <li>Il apprend des mouvements adaptés et coordonnés aux seniors (en fonction de leur âge) sur une chaise ou non.</li>
+                        <li>Il associe cette activité à des chants et danses</li>
                     </ul>
                 </div>
                 <div class="equipe border-me">
                     <h3 style="text-align: center;">Un coach en Gym douce </h3><span></span>
                     <ul>
-                        <li>Exercices musculaires</li>
-                        <li>Exercices de redressement et Equilibre</li>
-                        <li>Etirements</li>
+                        <li>Il prépare et organise les exercices musculaires.</li>
+                        <li>Il apprende aux résidents les exercices de redressement et équilibre</li>
+                        <li>Il aide les seniors aux divers exercices d'étirements</li>
                     </ul>
                 </div>
             </div>
 
-        <div class="bann-content04">
-            <div class="equipe border-me">
-                <h3 style="text-align: center;">Un personnel administratif</h3>
-                <ul>
-                    <li>Assurer toutes les tâches administratives</li>
-                    <li>Créer et Classer tous les dossiers des patients</li>
-                    <li>Créer un journal familial pour les personnes loin de leur proche</li>
-                    <li>Maintenir un lien social avec l’extérieur</li>
-                    <li>En collaboration avec le gérant pour la gestion du centre</li>
-                    <li>Proposer des activités à l’extérieur du centre</li>
-                    <li>Organiser un voyage en mer chaque année validée par le gérant</li>
-                </ul>
+            <div class="bann-content04">
+                <div class="equipe border-me">
+                    <h3 style="text-align: center;">Un personnel administratif</h3>
+                    <ul>
+                        <li>Il assurer toutes les tâches administratives</li>
+                        <li>Il crée et classe tous les dossiers des patients</li>
+                        <li>Il crée un journal familial pour les personnes loin de leur proche</li>
+                        <li>Il maintient un lien social avec l’extérieur</li>
+                        <li>Il aide à l'organisation des activités à l’extérieur du centre</li>
+                        <li>Il planifie le voyage annuel en mer après validation du gérant du centre</li>
+                    </ul>
+                </div>
+                <div class="equipe border-me">
+                    <h3 style="text-align: center;">Des assistantes</h3>
+                    <ul>
+                        <li>Elles assurent les moments de lecture (les nouvelles du jour et revue de presse)</li>
+                        <li>Elles organisent l’atelier de cuisine (préparation des crudités du midi)</li>
+                        <li>Elles assurent le partage des moments de convivialité en groupe ou individuel</li>
+                        <li>Elles accompagnent et aider les animatrices</li>
+                        <li>Elles animent les jeux de société</li>
+                        <li>Elles assistent et aident le directeur artistique dans ses missions</li>
+                        <li>Elles assistent et aident le coach zumba dans la réalisation des mouvements de coordination</li>
+                    </ul>
+                </div>
             </div>
-            <div class="equipe border-me">
-                <h3 style="text-align: center;">Trois assistantes</h3>
-                <ul>
-                        <li>Assurer les moments de lecture (les nouvelles du jour et revue de presse)</li>
-                        <li>Elaborer l’atelier de cuisine (préparation des crudités du midi)</li>
-                    <li>Partager des moments de convivialité en groupe ou individuel</li>
-                    <li>Accompagner et aider l’animatrice</li>
-                    <li>Animer les jeux de société</li>
-                    <li>Assister et aider le directeur artistique</li>
-                    <li>Assister et aider le coach zumba dans la réalisation des mouvements de coordination</li>
-                </ul>
-            </div>
+
+
+
+
+
+
+
+
+
+
         </div>
 
-
-
-
-
-
-
-
-
-
-        </div>
-
-    <!-- </div> -->
+    </div>
 </section>
