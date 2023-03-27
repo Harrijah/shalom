@@ -27,6 +27,21 @@ body{
   min-width: 400px;
   width: 80vw;
 }
+.bann-content03{
+  position: relative;
+  justify-content: space-around;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.bann-content04{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 100%;
+}
 .border-me{
   background-color: var(--color05);
   margin: 20px;
@@ -41,6 +56,14 @@ body{
   border: solid 2px var(--color04);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.border-me03{
+  background-color: var(--color05);
+  /* margin: 20px; */
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 1px var(--color04);
+  border-radius: 5px;
 }
 .separator01{
   position: relative;
@@ -318,8 +341,9 @@ nav{
 .prez02{
   position: relative;
   height: 400px;
-  float: right;
-  margin-left: 10px;
+  float: left;
+  margin: 30px;
+  padding: 0 0;
   /* border-radius: 5px; */
   /* background: var(--color03); */
   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */

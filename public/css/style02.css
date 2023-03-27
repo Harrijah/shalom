@@ -12,10 +12,10 @@
 }
 
 /* ***************************************** 04 Sections ***************************************************/
-.sec02 h3, .sec03 h3, .equipe h3{
+.sec02 h3, .sec03 h3, .bann-content03 h3, .equipe h3{
   font-size: 1.5rem;
   text-decoration: underline;
-  margin: 0 0 0 20px;
+  margin: 0 0 20px 20px;
   font-weight: 200;
 }
 
@@ -36,7 +36,21 @@
   /* left: 50%;
   transform: translateX(-50%);
   min-width: 400px; */
+  /* margin: auto; */
   width: 90%;
+  background: var(--color03);
+}
+.equipe02{
+  position: relative;
+  /* margin: 40px 0; */
+  /* left: 50%;
+  transform: translateX(-50%);
+  min-width: 400px; */
+  margin: auto;
+  width: 100%;
+}
+.equipe03{
+  margin: 35px 0;
 }
 
 
