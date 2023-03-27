@@ -38,7 +38,7 @@
             <div class="equipe03">
                 <h3 style="text-align: center;">Trois animatrices</h3>
             <div>
-                <img src="<?php echo base_url('image/assistante.jpg'); ?>" alt="assistante" class="standard-image prez02 border-me" style="width: 350px; height: auto;">   
+                <img src="<?php echo base_url('image/assistante.JPG'); ?>" alt="assistante" class="standard-image prez02 border-me" style="width: 350px; height: auto;">   
             </div>
                 <ul>
                     <li>Rôle occupationnel orienté sur des activités thérapeutiques</li>
@@ -70,6 +70,25 @@
 
             <div class="separator01"></div>
 
+            <div class="bann-content04">
+                <div class="equipe border-me">
+                    <h3 style="text-align: center;">Un coach en Zumba senior</h3>
+                    <ul>
+                        <li>En étroite collaboration avec le coach de gymnastique douce</li>
+                        <li>Apprendre des mouvements adaptés et coordonnés sur une chaise ou non (en fonction de l’âge)</li>
+                        <li>Les associer à des chants et danses</li>
+                    </ul>
+                </div>
+                <div class="equipe border-me">
+                    <h3 style="text-align: center;">Un coach en Gym douce </h3><span></span>
+                    <ul>
+                        <li>Exercices musculaires</li>
+                        <li>Exercices de redressement et Equilibre</li>
+                        <li>Etirements</li>
+                    </ul>
+                </div>
+            </div>
+
         <div class="bann-content04">
             <div class="equipe border-me">
                 <h3 style="text-align: center;">Un personnel administratif</h3>
@@ -93,24 +112,6 @@
                     <li>Animer les jeux de société</li>
                     <li>Assister et aider le directeur artistique</li>
                     <li>Assister et aider le coach zumba dans la réalisation des mouvements de coordination</li>
-                </ul>
-            </div>
-        </div>
-        <div class="bann-content04">
-            <div class="equipe border-me">
-                <h3 style="text-align: center;">Un coach en Zumba senior</h3>
-                <ul>
-                    <li>En étroite collaboration avec le coach de gymnastique douce</li>
-                    <li>Apprendre des mouvements adaptés et coordonnés sur une chaise ou non (en fonction de l’âge)</li>
-                    <li>Les associer à des chants et danses</li>
-                </ul>
-            </div>
-            <div class="equipe border-me">
-                <h3 style="text-align: center;">Un coach en Gym douce </h3><span></span>
-                <ul>
-                    <li>Exercices musculaires</li>
-                    <li>Exercices de redressement et Equilibre</li>
-                    <li>Etirements</li>
                 </ul>
             </div>
         </div>
