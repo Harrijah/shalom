@@ -3,7 +3,7 @@
     <div class="bann-content">
         <h2>Nous prenons soin ...</h2>
         <div class="separator01"></div>
-        <div class="border-me mytext02">
+        <div class="mytext02">
             <ol>
                 <li>De toutes personnes âgées en bonne santé apparente susceptibles de prendre soins de leur physique en vue de prévenir toutes les maladies dégénératives liées à l’âge : 
                     <ul>

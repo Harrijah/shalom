@@ -66,7 +66,7 @@ h1, h2, .bann02 h3, .formules-para{
 }
 .standard-image{
   position: relative;
-  max-height: 300px;
+  max-width: 400px;
   /* width: 100%; */
 }
 .grid-me p{
@@ -314,6 +314,16 @@ nav{
   background: var(--color03);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border: solid 4px var(--color04);
+}
+.prez02{
+  position: relative;
+  height: 400px;
+  float: right;
+  margin-left: 10px;
+  /* border-radius: 5px; */
+  /* background: var(--color03); */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  /* border: solid 4px var(--color04); */
 }
 .signature{
   position: relative;
