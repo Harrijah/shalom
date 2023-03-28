@@ -301,6 +301,11 @@ nav{
   height: 200px;
   object-position: center;
 }
+.activit-img02{
+  position: relative;
+  height: 200px;
+  object-position: center;
+}
 .service-card h3{
   text-align: center;
   font-weight: bold;
