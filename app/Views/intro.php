@@ -3,7 +3,7 @@
         <h1>Un havre de paix pour les personnes âgées</h1>
         <div class="separator01"></div>
         <div class="aboutus-img">
-            <img src="<?php echo base_url('image/beaute.jpg'); ?>" class="border-me02 activit-img" alt="beauté personne âgée">
+            <img src="<?php echo base_url('image/beaute.jpg'); ?>" class="border-me02 activit-img02" alt="beauté personne âgée">
         </div> 
         <div class="standard-text">
             <h2>Vieillir en beauté ! </h2>

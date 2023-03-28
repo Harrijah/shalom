@@ -1,7 +1,7 @@
 <section class="roll-image">
     <div class="vide"></div>
     <div class="qui">
-        <div class="qui-text border-me">
+        <div class="qui-text" style="padding: 20px">
             <h2>Une maison d'accueil, pour qui ?</h2>
             <div class="separator02"></div>
             <ul>

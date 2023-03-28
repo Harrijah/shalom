@@ -20,7 +20,7 @@
                     </div>
                     <div class="service-text">
                         <h3>Nutri-thérapie</h3>
-                        <p>En leur apprenant une alimentation adaptée par la Nutrithérapie (ou en prise en charge nutritionnelles pour les internats)</p>
+                        <p>Nous offrons une alimentation adaptée par la Nutrithérapie (ou en prise en charge nutritionnelles pour les internats)</p>
                     </div>
                 </div>
             <!-- </div> -->
@@ -31,7 +31,7 @@
                     </div>
                     <div class="service-text">
                         <h3>Gym douce</h3>
-                        <p>En leur accordant plusieurs activités physiques comme la gymnastique douce favorisant un renforcement musculaire adéquat et le bon maintien de l’équilibre.</p>
+                        <p>Nous proposons plusieurs activités physiques comme la gymnastique douce favorisant un renforcement musculaire adéquat et le bon maintien de l’équilibre.</p>
                     </div>
                 </div>
             <!-- </div> -->
@@ -42,7 +42,7 @@
                     </div>
                     <div class="service-text">
                         <h3>Ateliers et jeux</h3>
-                        <p>Par la mise en place de différents jeux collectifs de stimulation et d’animations qui seront des moyens de rencontre et d’ouverture.</p>
+                        <p>Nous organisons différents jeux collectifs de stimulation et d’animations qui seront des moyens de rencontre et d’ouverture.</p>
                     </div>
                 </div>   
             <!-- </div> -->

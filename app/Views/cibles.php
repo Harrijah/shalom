@@ -5,6 +5,7 @@
         <div class="separator01"></div>
         <div class="bann-content02">
             <div class="mytext02">
+                <p style="font-weight: bold;">Nous avons le plaisir d'accueillir et de prendre soin de :</p>
                 <ol>
                     <li>Toutes personnes âgées en bonne santé apparente susceptibles de prendre soins de leur physique en vue de prévenir toutes les maladies dégénératives liées à l’âge : 
                         <ul>

@@ -60,6 +60,15 @@ h3{
   margin: 20px auto;
   min-width: 400px;
 }
+.bann-content06{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: first baseline;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
 .border-me{
   background-color: var(--color05);
   margin: 20px;
@@ -124,20 +133,23 @@ h1, h2, .bann02 h3, .formules-para{
   "sec04 sec03 sec03";
 }
 .sec01{
+  position: relative;
   grid-area: sec01;
-  margin: auto;
+  margin: 25px auto;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .sec02{
   grid-area: sec02;
-  margin: auto;
+  margin: 25px auto;
 }
 .sec03{
   grid-area: sec03;
-  margin: auto;
+  margin: 25px auto;
 }
 .sec04{
   grid-area: sec04;
-  margin: auto;
+  margin: 25px auto;
 }
 .sep{
   grid-area: sep;
@@ -276,7 +288,7 @@ nav{
   width: 100%;
   max-width: 300px;
   height: 185px;
-  border-radius: 10px 10px 0 0;
+  /* border-radius: 10px 10px 0 0; */
   overflow: hidden;
 }
 .service-text{
@@ -302,13 +314,13 @@ nav{
 .roll-image{
   position: relative;
   display: flex;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)70%), url('../image/roll.jpg');
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0)70%), url('../image/roll.jpg');
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 30px;
+  padding: 50px;
 }
 .qui{
   position: relative;
@@ -316,9 +328,12 @@ nav{
 }
 .qui-text{
   position: relative;
-  margin: 0px 20px;
-  /* padding: 20px; */
+  margin: 0px 10px;
+  border: solid 2px var(--color04);
   background: var(--color03);
+  /* background : rgba(255, 255, 255, 0.600);  */
+  backdrop-filter: blur(10px);
+
 }
 .qui-text ul{
   position: relative;
@@ -485,6 +500,10 @@ textarea{
 
 /* ******************************** Responsive ******************************* */
 @media screen and (max-width: 1100px) {
+  .activit-img02{
+    left: 50%;
+    transform: tranlateX(-50%);
+  }
   .myservices{
     display: grid;
     grid-template-columns: 12% 38% 38% 12%;
@@ -507,11 +526,11 @@ textarea{
   .sep{
     display: none;
   }
-  .bann-content02, .bann-content04, .bann-content05{
+  .bann-content02, .bann-content04, .bann-content05, .bann-content06{
     display: block;
   }
-  .bann-content05 .mydoc{
-    margin: auto;
+  .bann-content05 .mydoc, .mytext02{
+    margin: auto 20px;
   }
   .internat, .externat{
     margin: 20px auto;
