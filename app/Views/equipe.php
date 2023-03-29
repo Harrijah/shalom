@@ -8,12 +8,12 @@
             <div style="margin-bottom: 35px;">
             
                 <h3 style="text-align: center;">Un médecin  coordonnateur et gérante du centre</h3>
-                <p>
+                <!-- <p>
                     Le Docteur Josiane Rakotomalala a pour mission principale d'assurer le développement psychosocial et la stimulation cognitive de nos résidents que ce soit en internat ou en externat.  
                 </p>
                 <p>
                     Pour ce faire, nous utilisons différentes techniques de stimulation cognitive, telles que des tests et des jeux de mémoire, ainsi que des moments d'échanges sur l'histoire de nos résidents grâce à la Réminiscence. Nous sommes également attachés à assurer une prise en charge sociale et spirituelle complète pour chaque résident afin de procurer un confort physique et psychologique optimal.
-                </p>
+                </p> -->
 
                 <div class="bann-content05">
                     <div class="">

@@ -41,10 +41,11 @@
                     <h3>Favoriser leur bien-être</h3>
                         <div style="border-left: solid 10px var(--color07); padding-left: 20px;">
                         <p>
-                            Notre équipe chez Shalom - Maison d'Accueil est fière d'offrir un environnement stimulant, encourageant et personnalisé pour nos résidents. Nous sommes conscients que chaque personne est unique, avec ses propres besoins et préférences, et nous nous efforçons de créer un environnement où chacun se sent chez soi. Nos résidents sont encouragés à participer à des activités de leur choix, qu'il s'agisse de jeux de mémoire, de jardinage, d'art ou d'autres activités de leur choix. 
+                            Notre équipe chez Shalom - Maison d'Accueil est fière d'offrir un environnement agréable pour nos résidents. Nous sommes conscients que chaque personne est unique, avec ses propres besoins et préférences, et nous nous efforçons de créer un environnement où chacun se sent chez soi. Nos résidents sont encouragés à participer à des activités de leur choix, qu'il de jardinage, d'art ou d'autres activités de leur choix. 
                         </p>
                         <p>
-                            Nous proposons des ateliers de thérapie non médicamenteuse, des jeux de stimulation cognitive, ainsi que des jeux collectifs pour favoriser les rencontres et l'activité sociale. Avec, à la fois, une approche globale et personnalisée, nous sommes convaincus que nous pouvons améliorer significativement la qualité de vie de nos résidents.
+                            Nous ambitionnons à assurer le développement psychosocial et la stimulation cognitive de nos résidents. Pour ce faire, nous utilisons différentes techniques de stimulation cognitive, telles que des tests et des jeux de mémoire, ainsi que des moments d'échanges sur l'histoire de nos résidents grâce à la Réminiscence. Nous sommes également attachés à assurer une prise en charge sociale et spirituelle complète pour chaque résident afin de procurer un confort physique et psychologique optimal. 
+                            
                         </p>
                     </div>
                 </div>
