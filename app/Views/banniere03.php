@@ -22,7 +22,7 @@
             <p>
                 Notre objectif chez Shalom - Maison d'Accueil est d'améliorer la qualité de vie de vos parents. Avec notre slogan, <b><i>"Vieillir en beauté et en bonne santé !"</i></b>, le patient est placé au cœur de notre approche et nous le considérons comme un sujet actif de son propre épanouissement plutôt qu'un simple objet de soins. <br><br>
                 
-                Nous sommes fiers d'offrir un environnement stimulant et encourageant, qui favorise une vie sociale riche en moments de plaisir et d'échanges. Nous invitons les personnes âgées à découvrir notre maison d'accueil, où ils seront accueillis avec respect, dignité et une attention personnalisée.
+                Nous sommes fiers d'offrir un cadre unique et conviviale, qui favorise une vie sociale riche en moments de plaisir et d'échanges. Nous invitons les personnes âgées à découvrir notre maison d'accueil, où ils seront accueillis avec respect, dignité et une attention personnalisée.
             </p>
             <span class="signature">Dr Josiane RAKOTOMALALA</span>
             

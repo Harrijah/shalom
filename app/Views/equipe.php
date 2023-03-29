@@ -8,6 +8,9 @@
             <div style="margin-bottom: 35px;">
             
                 <h3 style="text-align: center;">Un médecin  coordonnateur et gérante du centre</h3>
+                <p style="width: 70%; text-align: center; margin: auto;">
+                    Le Dr Josiane Rakotomalala assure l'élaboration et la planification des projets du centre, garantit le bon déroulement des activités, et en assure leur diversification afin d'éviter la routine. 
+                </p>
                 <!-- <p>
                     Le Docteur Josiane Rakotomalala a pour mission principale d'assurer le développement psychosocial et la stimulation cognitive de nos résidents que ce soit en internat ou en externat.  
                 </p>
@@ -23,9 +26,9 @@
                         <p>
                             <span style="text-decoration: underline;">Manager et Leader</span> : Elle cordonne, gère, organise et supervise toutes les activités du centre. Elle effectue le test de tous les entrants, en les classant selon leur état de santé. Elle supervise les différents intervenants, et effectue le bilan mensuel des activités du centre.
                         </p>
-                        <p>
+                        <!-- <p>
                             <span style="text-decoration: underline;">Assurer et superviser l’animation en permanence</span> : elle assure l'élaboration et la planification des projets du centre, garantit le bon déroulement des activités, et en assure la diversification afin d'éviter la routine. 
-                        </p>
+                        </p> -->
                         <p>
                             <span style="text-decoration: underline;">Coach en Nutrithérapie</span><i> (notre aliment = notre médicament)</i>  : Elle établit une alimentation équilibrée, adaptée et individualisée au quotidien pour les résidents du centre. Elle organise des séances de formation sur la "pharmacie alimentaire"; un sujet qui traite sur les interactions alimentaires, les couleurs de la santé, et l'élaboration de l'<b>assiette antioxydant</b>, ou <b>assiette anti-cancer</b>.
                         </p>
@@ -41,7 +44,7 @@
         
             <div class="equipe03">
                 <h3 style="text-align: center;">Un Directeur artistique </h3>
-                <p style="margin: 0 20px">
+                <p style="margin: 0 auto; text-align: center; width: 80%;">
                     Le rôle du directeur artistique chez Shalom - Maison d'Accueil est de créer un environnement stimulant pour les résidents en favorisant des activités créatives telles que la peinture, le chant et la musique. Il vise à stimuler les cinq sens et à encourager les résidents à exprimer leur créativité tout en réduisant les troubles du comportement et l'isolement. Le directeur artistique respecte le rythme et les choix des résidents, tout en cherchant à leur offrir des moments de bonheur et de connexion avec le monde qui les entoure.
                 </p>
             </div>
