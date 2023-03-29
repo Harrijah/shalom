@@ -6,7 +6,7 @@
             <img src="<?php echo base_url('image/beaute.jpg'); ?>" class="border-me02 activit-img02" alt="beauté personne âgée">
         </div> 
         <div class="standard-text">
-            <h2>Vieillir en beauté ! </h2>
+            <h2>Vieillir en beauté et en bonne santé ! </h2>
             <div class="separator02"></div>
             <p class="">
                 La Maison d'accueil Shalom s'engage à améliorer la qualité de vie des personnes âgées en leur offrant une expérience personnalisée et stimulante. Dirigée par Dr Josiane Rakotomalala, Shalom - Maison d'accueil accueille toutes les personnes âgées en bonne santé et celles atteintes de maladies dégénératives liées à l'âge telles qu'Alzheimer ou Parkinson. <br>

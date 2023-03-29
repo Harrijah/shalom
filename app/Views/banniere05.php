@@ -7,6 +7,7 @@
                 <p class="mytext01">
                 Nous avons conçu deux options distinctes pour répondre à vos attentes et votre disponibilité. Que vous choisissiez de profiter d'une pension complète chez nous ou de participer uniquement à nos programmes à la carte, nous nous engageons à fournir une expérience exceptionnelle. Vous êtes libres de personnaliser la durée de votre séjour selon vos besoins, sans aucune contrainte d'adhésion. 
                 </p>
+                <div class="separator01"></div>
             </div>
             <div class="bann-content06">
                 <div class="internat border-me">
