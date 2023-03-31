@@ -13,11 +13,11 @@
                 <div class="internat border-me">
                     <h3>Internat</h3>
                     <p>
-                    Shalom - Maison d'Accueil : un environnement stimulant pour <b> améliorer la qualité de vie de nos aînés</b>. Shalom - Maison d'Accueil est un lieu unique où nous prenons soin de nos résidents âgés dans un cadre stimulant, encourageant et personnalisé. 
+                    Shalom - Maison d'Accueil est un lieu unique où nous prenons soin des personnes âgées, en internat, dans un cadre stimulant, encourageant et personnalisé. 
 
                     <br><br>
 
-                    L'équipe de Shalom - Maison d'Accueil est composée d'un docteur en médecine, coordonnateur et coach en <b>Nutrithérapie</b>, d'un coach en <b>Santé Bien-être</b> et d'un personnel chargé du développement psychosocial du patient en internat et de la stimulation cognitive. Shalom - Maison d'Accueil est fière de son approche innovante et idéale pour prendre soin des parents, offrant un lieu de vie chaleureux, confortable et sécurisé pour les personnes âgées, et invite les gens à découvrir leur formule en internat et à se joindre à leur famille.
+                    L'équipe de Shalom - Maison d'Accueil est composée d'un docteur en médecine, coordonnateur des activités au niveau du Centre, également coach en <b>Nutrithérapie</b>, d'un coach en <b>Santé Bien-être</b> et d'un personnel chargé du développement psychosocial du patient en internat et de la stimulation cognitive. Shalom - Maison d'Accueil est fière de son approche innovante et idéale pour prendre soin des parents, offrant un lieu de vie chaleureux, confortable et sécurisé pour les personnes âgées, et invite les gens à découvrir leur formule en internat et à se joindre à leur famille.
 
                     </p>
                 </div>
