@@ -5,9 +5,15 @@
   --color02: #D6D8FF;
   --color03: #FFFFF0;
   --color04: #FFD6FC;
-  --color05: #FFF9E3;
-  /* --color06: #FDFFFC; */
+  --color05: #FFF9E3; 
+  --color06: #FDFFFC; 
   --color07: #994543;
+  /* --color01: #fdf5f5;
+  --color02: #D6D8FF;
+  --color03: #FFFFF0;
+  --color04: #FFAB9E;
+  --color05: #fcf5f5;
+  --color07: #d87e70; */
 }
 
 body{
@@ -117,8 +123,9 @@ h1{
 }
 h1, h2, .bann02 h3, .formules-para{
   margin-bottom: 0;
-  font-weight: 300;
-  text-shadow: 0px 1px 1px var(--color07);
+  /* font-weight: 600; */
+  font-family: 'Calibri';
+  /* text-shadow: 0px 1px 1px var(--color07); */
 }
 .standard-image{
   position: relative;
@@ -186,7 +193,7 @@ nav{
 }
 .menu li a, .dropdown-content li a, .dropbtn{
   display: block;
-  color: var(--color01);
+  color: var(--color03);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -374,6 +381,9 @@ nav{
 .doctor-word h2, .standard-text h2{
   text-align: left;
 }
+.doctor-word li{
+  list-style: none;
+}
 
 .prez{
   position: relative;
@@ -479,13 +489,13 @@ textarea{
   display: grid;
   width: 100%;
   min-height: 300px;
-  color: white;
+  color: var(--color03);
   background-color: var(--color07);
   grid-template-columns: 50% 20% 30%;
   grid-template-areas: "fi fm fc";
 }
 .footer-section a{
-  color: white;
+  color: var(--color03);
 }
 .footer-section ul{
   list-style: none;

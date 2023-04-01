@@ -24,8 +24,8 @@
             <li class="internmenu">
                 <a class="dropbtn">Nos formules</a>
                 <ul class="dropdown-content">
-                    <li><a href="">Internat</a></li>
-                    <li><a href="">Externat</a></li>
+                    <li><a href="<?php echo base_url('internat'); ?>">Internat</a></li>
+                    <li><a href="<?php echo base_url('externat'); ?>">Externat</a></li>
                 </ul>
             </li>
             <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>">A propos de nous</a></li>

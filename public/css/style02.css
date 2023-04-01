@@ -105,3 +105,96 @@
     width: 100%;
   } */
 }
+
+
+/* Internat */
+/* Bannière principale */
+.nosban01{
+  position: relative;
+  height: 325px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.644)), url(../image/roll.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.nosban01 h1{
+  position: relative;
+  color: var(--color03);
+  font-family: 'Rajdhani';
+  font-size: 10vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ************************************* Tableau ************************************************** */
+.grid-caracteristiques{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.caracteristiques, .details{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: var(--color03);
+  background-color: var(--color07);
+  border: solid 1px var(--color04);
+}
+.grid-conditions,
+.grid-duree,
+.grid-restauration,
+.grid-services,
+.grid-activites {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  border: solid 1px var(--color04);
+} 
+.conditions-details,
+.duree-details,
+.restauration-details,
+.services-details,
+.activites-details{
+  margin: 0;
+  padding: 10px;
+  border: solid 1px var(--color04);
+}
+
+/* Cadre images Visite guidée Shalom */
+.cadre-image{
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "shimg01 shtext01"
+  "shimg02 shtext02"
+  "shimg03 shtext03"
+  ;
+}
+  .shalom-gridimage{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.cadre-image01, .cadre-image02, .cadre-image03{
+  position: relative;
+  max-height: 400px;
+  overflow: hidden;
+}
+.cadre-texte01, .cadre-texte02, .cadre-texte03{
+  position: relative;
+  background: radial-gradient(rgba(0, 0, 0, 0), var(--color07) 450%);
+  max-height: 400px;
+  overflow: hidden;
+}
+.inside-text{
+  position: relative;
+  width: 80%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

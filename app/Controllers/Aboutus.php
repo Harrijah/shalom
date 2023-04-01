@@ -1,7 +1,7 @@
 <?php
     namespace App\Controllers;
 
-    class aboutus extends BaseController
+    class Aboutus extends BaseController
     {
         public function aboutus()
         {
