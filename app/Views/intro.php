@@ -2,9 +2,10 @@
     <div class="bann-content intern01">
         <h1>Un havre de paix pour les personnes âgées</h1>
         <div class="separator01"></div>
-        <div class="aboutus-img">
-            <img src="<?php echo base_url('image/beaute.jpg'); ?>" class="border-me02 activit-img02" alt="beauté personne âgée">
-        </div> 
+        <div class="spacer01"></div>
+        <div class="aboutus-container">
+            <div class="aboutus-img"></div> 
+        </div>
         <div class="standard-text">
             <h2>Vieillir en beauté et en bonne santé ! </h2>
             <div class="separator02"></div>

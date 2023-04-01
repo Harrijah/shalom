@@ -1,14 +1,35 @@
 .intern01{
   margin-top: 75px;
 }
-.aboutus-img, .standard-text{
+.standard-text{
     position: relative;
     display: inline-block;
-    vertical-align: top;
+    padding: 20px;
 }
 
 .standard-text{
     width: 70%;
+}
+
+/* Introduction */
+.intern01 h1{
+  font-family: 'Rajdhani', sans-serif;
+}
+.aboutus-container{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  filter: drop-shadow(3px 4px 2px var(--color07));
+}
+.aboutus-img{
+  clip-path: polygon(0 0, 74% 0, 100% 100%, 25% 100%);
+  background: url(../image/beaute.jpg) center/cover;
+  height: 300px;
+  width: 300px;
+  border: solid 2px var(--color04);
+}
+.aboutus-img img{
+  width: 100%;
 }
 
 /* ***************************************** 04 Sections ***************************************************/
