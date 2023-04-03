@@ -81,6 +81,15 @@ h3{
   min-width: 400px;
   width: 80vw;
 }
+.bann-content07{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
 .border-me{
   background-color: var(--color05);
   margin: 20px;
@@ -299,13 +308,13 @@ nav{
 .myservices{
   position: relative;
   display: grid;
-  grid-template-columns: 4% 23% 23% 23% 23% 4%;
+  grid-template-columns: 8% auto auto auto auto 8%;
   grid-template-areas: "vide01 s4 s1 s2 s3 vide02";
 }
 .service-card{
   position: relative;
-  margin: 10px auto;
-  width: 250px;
+  margin: 15px auto;
+  width: 240px;
 }
 .vide01{
   grid-area: vide01;
@@ -335,8 +344,8 @@ nav{
 }
 .service-text{
   margin: auto;
-  height: 200px;
-  padding: 10px 20px;
+  height: auto;
+  padding: 10px 10px;
 }
 .activit-img{
   position: relative;
@@ -554,7 +563,7 @@ textarea{
 
 .myfb, .myli{
   font-size: 2rem;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
 .myfb:hover, .myli:hover{
@@ -571,8 +580,8 @@ textarea{
   }
   .myservices{
     display: grid;
-    grid-template-columns: 12% 38% 38% 12%;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 20% auto auto 20%;
+    grid-template-rows: auto auto;
     grid-template-areas: 
     "vide01 s4 s1 vide02"
     "vide01 s2 s3 vide02";
@@ -596,7 +605,7 @@ textarea{
   .sep{
     display: none;
   }
-  .bann-content02, .bann-content04, .bann-content05, .bann-content06{
+  .bann-content02, .bann-content04, .bann-content05, .bann-content06, .bann-content07{
     display: block;
   }
   .bann-content05 .mydoc, .mytext02{

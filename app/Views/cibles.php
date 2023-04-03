@@ -3,7 +3,7 @@
     <div class="bann-content">
         <h2>Les résidents du Centre </h2>
         <div class="separator01"></div>
-        <div class="bann-content02">
+        <div class="bann-content07">
             <div class="mytext03">
                 <p style="font-weight: bold;">Nous avons le plaisir d'accueillir et de prendre soin de :</p>
                 <ol>

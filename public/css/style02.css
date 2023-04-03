@@ -46,7 +46,7 @@
 .mytext03{
   position: relative;
   display: inline-block;
-  width: 70%;
+  width: 80%;
   padding: 20px;
   vertical-align: middle;
   background: var(--color05);
@@ -56,7 +56,8 @@
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  width: 30%;
+  width: 20%;
+  transform: rotate(12deg);
   z-index: -1;
 }
 .brefimg{
@@ -263,6 +264,7 @@
     display: block;
     margin: 20px auto;
     width: 90%;
+    transform: rotate(0deg);
   }
   .brefimg{
     position: relative;
