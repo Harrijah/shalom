@@ -3,6 +3,9 @@
         <h2>Nos activités</h2>
         <div class="separator01"></div>
         <div class="activites">
+                <p class="mytext01">
+                    Nous avons programmé diverses activités stimulantes et passionnantes afin de casser la routine. Ces activités sont pour le plus souvent à des fins de thérapie non médicamenteuse et pour assurer le bien-être de nos hôtes. 
+                </p>
             <div class="det-act">
                 <div class="act-card border-me02 text-center">
                     <img src="<?php echo base_url('image/gym04.svg') ; ?>" alt="gymnastique douce">

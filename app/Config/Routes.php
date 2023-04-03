@@ -33,6 +33,7 @@ $routes->get('/', 'Accueil::accueil');
 $routes->get('/aboutus', 'Aboutus::aboutus');
 $routes->get('/internat', 'Services::internat');
 $routes->get('/externat', 'Services::externat');
+$routes->get('/contact', 'Contact::contact');
 
 /*
  * --------------------------------------------------------------------

@@ -30,7 +30,7 @@
             </li>
             <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>">A propos de nous</a></li>
             <!-- <li class="menuitem"><a href="">Blog</a></li> -->
-            <li class="menuitem"><a href="">Contact</a></li>
+            <li class="menuitem"><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
         </ul>
         
     </div> 

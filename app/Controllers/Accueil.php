@@ -3,7 +3,7 @@
 
     class Accueil extends BaseController
     {
-        public function Accueil()
+        public function accueil()
         {
             return view('header')
             . view('banniere01')

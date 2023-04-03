@@ -367,18 +367,18 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 150px 0 10px 0;
+  padding: 150px 40px 40px 0;
 }
 .qui{
   position: relative;
-  width:69%;
+  width:70%;
 }
 .qui-text{
   position: relative;
   /* right: 20px; */
   margin: 0 0;
   border: solid 2px var(--color04);
-  background: var(--color03);
+  background: var(--color05);
   /* background : rgba(255, 255, 255, 0.600);  */
   backdrop-filter: blur(10px);
 

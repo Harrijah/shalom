@@ -129,6 +129,8 @@
 .grid-caracteristiques{
   display: grid;
   grid-template-columns: 30% 70%;
+  background: var(--color05);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .caracteristiques, .details{
   text-align: center;
@@ -150,6 +152,7 @@
   margin: 0;
   padding: 10px;
   border: solid 1px var(--color04);
+  font-weight: bold;
 } 
 .conditions-details,
 .duree-details,

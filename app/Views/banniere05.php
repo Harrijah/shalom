@@ -5,13 +5,13 @@
                 <h2>Nos formules</h2>
                 <div class="separator01"></div>
                 <p class="mytext01">
-                Nous avons conçu deux options distinctes pour répondre à vos attentes et votre disponibilité. Que vous choisissiez de profiter d'une pension complète chez nous ou de participer uniquement à nos programmes à la carte, nous nous engageons à fournir une expérience exceptionnelle. Vous êtes libres de personnaliser la durée de votre séjour selon vos besoins, sans aucune contrainte d'adhésion. 
+                Nous avons conçu deux options pour répondre à vos attentes et votre disponibilité. Que vous choisissiez de profiter d'une pension complète chez nous ou de participer uniquement à nos programmes à la carte, nous nous engageons à fournir une expérience exceptionnelle. Vous êtes libres de personnaliser la durée de votre séjour selon vos besoins, sans aucune contrainte d'adhésion. 
                 </p>
-                <div class="separator01"></div>
             </div>
             <div class="bann-content06">
                 <div class="internat border-me">
                     <h3>Internat</h3>
+                    <div class="separator01"></div>
                     <p>
                     Shalom - Maison d'Accueil est un lieu unique où nous prenons soin des personnes âgées, en internat, dans un cadre stimulant, encourageant et personnalisé. 
 
@@ -24,6 +24,7 @@
                 </div>
                 <div class="externat border-me">
                     <h3>Externat</h3>
+                    <div class="separator01"></div>
                     <p>
                         Nous offrons désormais notre formule en externat pour les personnes âgées qui souhaitent rester chez elles tout en bénéficiant de nos services de qualité. Nous accueillons des personnes âgées <b>dès l'âge de 50 ans</b>, avec une équipe multidisciplinaire et conviviale pour les accompagner résidents dans leur quotidien.
                         <br><br>
