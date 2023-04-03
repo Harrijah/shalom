@@ -7,6 +7,7 @@
         {
             return view('header')
             . view('nosban01')
+            . view('nosbanx')
             . view('banniere06')
             . view('footer');
         }
@@ -15,6 +16,7 @@
         {
             return view('header')
             . view('nosban02')
+            . view('nosbanx')
             . view('banniere06')
             . view('footer'); 
         }

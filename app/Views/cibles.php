@@ -9,7 +9,6 @@
                 <ol>
                     <li>Toutes personnes âgées en bonne santé apparente susceptibles de prendre soins de leur physique en vue de prévenir toutes les maladies dégénératives liées à l’âge : 
                         <ul>
-                            <li>en leur proposant un régime personnalisé</li>
                             <li>en leur apprenant à prendre des aliments riches en antioxydants</li>
                             <li>en leur apprenant des différentes postures de prévention et de bien-être</li>
                             <li>en leur faisant pratiquer des exercices physiques douces pour renforcer leur musculation</li>
@@ -31,6 +30,11 @@
                     <li>Les personnes âgées souffrant des douleurs articulaires ou de dos chroniques :
                         <ul>
                             <li>en leur apportant des thérapies non médicamenteuses</li>
+                        </ul>
+                    </li>
+                    <li>Les personnes en convalescence, ou qui viennent sortir d'hôpital :
+                        <ul>
+                            <li>afin de se rétablir rapidement grâce à la nutrithérapie.</li>
                         </ul>
                     </li>
 

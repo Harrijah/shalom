@@ -112,7 +112,7 @@
 .nosban01{
   position: relative;
   height: 325px;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.644)), url(../image/roll.jpg);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.644)), url(../image/banniere.jpeg);
   background-position: top;
   background-size: cover;
 }

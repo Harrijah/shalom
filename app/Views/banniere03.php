@@ -9,6 +9,7 @@
                 <li><i class="fa fa-check usercheck"></i> Les personnes âgées souffrant des douleurs articulaires ou de dos chroniques</li>
                 <li><i class="fa fa-check usercheck"></i> Les malades atteints d’Alzheimer au stade de début</li>
                 <li><i class="fa fa-check usercheck"></i> Les malades atteints de la maladie de Parkinson au stade de début ou pas</li>
+                <li><i class="fa fa-check usercheck"></i> Les personnes en convalescence, ou qui viennent sortir d'hôpital.</li>
             </ul>
         </div>
     </div>

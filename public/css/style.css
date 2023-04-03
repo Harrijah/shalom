@@ -171,6 +171,33 @@ h1, h2, .bann02 h3, .formules-para{
   margin: 30px auto;
 }
 
+.mybutton{
+  display: block;
+  position: relative;
+  text-align: center;
+  min-width: 100px;
+  width: 80%;
+  max-width: 250px;
+  margin: auto;
+  padding: 10px 30px;
+  border: solid 1px var(--color04);
+  border-radius: 50px;
+  background: var(--color03);
+  color: var(--color07);
+  text-decoration: none;
+  transition: 0.5s;
+}
+.mybutton:hover{
+  color: var(--color03);
+  text-decoration: none;
+  background: var(--color07);
+  border: solid 1px var(--color03);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px 3px, rgba(0, 0, 0, 0.06) 0px 2px 4px 3px;
+}
+.mybutton:active{
+  transform: scale(0.8);
+}
+
 
 /* *****************  Menu  ********************** */
 nav{
