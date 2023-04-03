@@ -9,21 +9,23 @@
         <div class="footer-menu">
             <h3>Rubriques</h3>
             <ul class="footer-list">
-                <li><a href="">A propos de nous</a></li>
-                <li><a href="">Nos formules</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="<?php echo base_url('/'); ?>">Accueil</a></li>
+                <li><a href="<?php echo base_url('internat'); ?>">Internat</a></li>
+                <li><a href="<?php echo base_url('externat'); ?>">Externat</a></li>
+                <li><a href="<?php echo base_url('aboutus'); ?>">A propos de nous</a></li>
+                <li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
             </ul>
             <div class="rs">
-                <a href=""><i class="fa fa-facebook myfb"></i></a>
-                <a href=""><i class="fa fa-linkedin myli"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064164513757" class=""><i class="fab fa-facebook myfb"></i></a>
+                <a href="#" class=""><i class="fab fa-linkedin myli"></i></a>
             </div>
         </div>
         <div class="footer-contact">
             <h3>Nous trouver :</h3>
             <ul class="contact-list">
                 <li><u>Adresse</u> : Cité des Assurreurs Itaosy </li>
-                <li><u>Mail</u> : contact[at]shalom.mg </li>
-                <li><u>Téléphone</u> : +261 (0)34 00 123 45</li>
+                <li><u>Mail</u> : contact@shalom.mg </li>
+                <li><u>Téléphone</u> : +261 (0)34 38 129 35</li>
             </ul>
         </div>
     </div>

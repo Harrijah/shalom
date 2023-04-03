@@ -1,14 +1,15 @@
 <section>
+    <div class="spacer01"></div>
     <div class="bann-content">
         <h2 style="text-align:center;">Notre équipe</h2>
         
         <div class="separator01"></div>
 
-        <div class="bann-content03 border-me03">
-            <div style="margin-bottom: 35px;">
+        <div class="bann-content03 border-me03" style="">
+            <div style="margin-bottom: 35px; padding: 20px 0 0 30px;">
             
-                <h3 style="text-align: center;">Un médecin  coordonnateur et gérante du centre</h3>
-                <p style="width: 70%; text-align: center; margin: auto;">
+                <h3>Un médecin  coordonnateur et gérante du centre</h3>
+                <p style="width: 70%;">
                     Le Dr Josiane Rakotomalala assure l'élaboration et la planification des projets du centre, garantit le bon déroulement des activités, et en assure leur diversification afin d'éviter la routine. 
                 </p>
                 <!-- <p>
@@ -42,16 +43,16 @@
             <div class="separator01"></div>
             
         
-            <div class="equipe03">
-                <h3 style="text-align: center;">Un Directeur artistique </h3>
-                <p style="margin: 0 auto; text-align: center; width: 80%;">
+            <div class="equipe03" style="padding: 0 30px;">
+                <h3>Un Directeur artistique </h3>
+                <p style="width: 80%;">
                     Le rôle du directeur artistique chez Shalom - Maison d'Accueil est de créer un environnement stimulant pour les résidents en favorisant des activités créatives telles que la peinture, le chant et la musique. Il vise à stimuler les cinq sens et à encourager les résidents à exprimer leur créativité tout en réduisant les troubles du comportement et l'isolement. Le directeur artistique respecte le rythme et les choix des résidents, tout en cherchant à leur offrir des moments de bonheur et de connexion avec le monde qui les entoure.
                 </p>
             </div>
 
             <div class="separator01"></div>
 
-            <div class="equipe03">
+            <div class="equipe03"  style="padding:0 30px;">
                 <h3 style="text-align: center;">Des animatrices</h3>
                 <div>
                     <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image border-me02 assistante-img" style="width: 350px; height: auto;">   

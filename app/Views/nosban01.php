@@ -1,7 +1,7 @@
 <section>
-        <div class="nosban01">
-            <h1>Internat</h1>
-        </div>
+    <div class="nosban01">
+        <h1>Internat</h1>
+    </div>
 </section>
 <section>
     <div class="bann-content">

@@ -129,8 +129,8 @@ h1, h2, .bann02 h3, .formules-para{
 }
 .standard-image{
   position: relative;
+  width: 100%;
   max-width: 400px;
-  /* width: 100%; */
 }
 /* .grid-me p{
   margin: 20px;
@@ -141,7 +141,7 @@ h1, h2, .bann02 h3, .formules-para{
   grid-template-columns: 40% 20% 40%;
   grid-template-rows: auto auto auto;
   grid-template-areas: 
-  "sec02 sec02 sec01"
+  "sec01 sec02 sec02"
   "sep sep sep"
   "sec04 sec03 sec03";
 }
@@ -489,10 +489,10 @@ nav{
 /* ************************** Nous contacter ********************************* */
 /* .form-image{
   margin: auto;
-} */
-.group-image{
-  width: 90%;
+.myimgcont{
+  position: relative;
 }
+} */
 textarea, input{
   display: block;
   margin: 5px auto;
@@ -516,10 +516,14 @@ textarea{
   display: grid;
   width: 100%;
   min-height: 300px;
+  padding: 20px;
   color: var(--color03);
   background-color: var(--color07);
   grid-template-columns: 50% 20% 30%;
   grid-template-areas: "fi fm fc";
+}
+.footer-section h2, .footer-section h3{
+  color: var(--color04);
 }
 .footer-section a{
   color: var(--color03);
@@ -548,6 +552,16 @@ textarea{
   padding: 10px;
 }
 
+.myfb, .myli{
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.myfb:hover, .myli:hover{
+  color: var(--color07);
+  background-color: var(--color04);
+}
+
 
 /* ******************************** Responsive ******************************* */
 @media screen and (max-width: 1100px) {
@@ -573,6 +587,11 @@ textarea{
     "sec02"
     "sec04" 
     "sec03";
+  }
+  .standard-image{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
   }
   .sep{
     display: none;

@@ -4,7 +4,7 @@
         <h2>Les résidents du Centre </h2>
         <div class="separator01"></div>
         <div class="bann-content02">
-            <div class="mytext02">
+            <div class="mytext03">
                 <p style="font-weight: bold;">Nous avons le plaisir d'accueillir et de prendre soin de :</p>
                 <ol>
                     <li>Toutes personnes âgées en bonne santé apparente susceptibles de prendre soins de leur physique en vue de prévenir toutes les maladies dégénératives liées à l’âge : 
@@ -39,9 +39,8 @@
                     </li>
 
                 </ol>
-            </div>
-            <div>
-                <img src="<?php echo base_url('image/residents.jpg') ?>" alt="les résidents du centre d'accueil" class="standard-image border-me02 mydoc" style="height: 300px; width:400px;"> 
+            </div><div class="img-content02 border-me02">
+                <img src="<?php echo base_url('image/residents.jpg') ?>" alt="les résidents du centre d'accueil" class="brefimg">
             </div>    
 
         </div>

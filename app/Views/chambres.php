@@ -3,6 +3,7 @@
         <h2>La Maison d'Accueil - Shalom</h2>
         <div class="separator01"></div>
         <div class="cadre-image border-me02">
+            <!-- <div class="vide03"></div> -->
             <div class="cadre-image01">
                 <img src="<?php echo base_url('image/monlit.jpeg') ?>" class="shalom-gridimage" alt="mon lit chez Maison d'Accueil">
             </div>
