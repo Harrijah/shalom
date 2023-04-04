@@ -19,7 +19,7 @@
                         L'<b>aromathérapie</b> est une autre option pour nos résidents. Nous utilisons des huiles essentielles pour traiter différents troubles et aider à réduire le stress. <br>
 
                         Nous proposons une "<b>Thérapie non médicamenteuse</b>", qui comprend divers jeux et ateliers pour stimuler la cognition de nos résidents, mais aussi des interactions sociales et la reminescence, pour aider nos résidents à se sentir connectés, heureux et de maintenir leur esprit actif et alerte.<br>
-                        Nous proposons divers programmes basés sur la <b>médecine alternative</b> comme la réflexothérapie, massage, Taichi, Reiki, magnetotherapie, et selon les traitements, des anti-douleurs sans produits chimiques afin de préserver la fonction rénale; ex:appareil "Tens "", "Pach magnétique , ...<br><br>
+                        Nous proposons divers programmes basés sur la <b>médecine alternative</b> comme la réflexothérapie, massage, Taichi, Reiki, magnetotherapie, et selon les traitements, des anti-douleurs sans produits chimiques afin de préserver la fonction rénale; exemple : appareil "Tens ", "Pach magnétique" , ...<br><br>
                         Des <b>sorties</b> sont régulièrement organisées avec nos résidents, dont une sortie en bord de mer une fois par an.
                         </p>
                     </div>
