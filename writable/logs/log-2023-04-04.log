@@ -187,3 +187,124 @@ Stack trace:
 #10 {main}
 ERROR - 2023-04-04 17:38:21 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 ERROR - 2023-04-04 17:38:21 --> 
+CRITICAL - 2023-04-04 22:13:48 --> Call to undefined function form_open()
+in APPPATH\Views\banniere06.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('banniere06', [], true)
+ 4 APPPATH\Controllers\Accueil.php(14): view('banniere06')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accueil->accueil()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:16:13 --> Call to undefined function form_open()
+in APPPATH\Views\banniere06.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('banniere06', [], true)
+ 4 APPPATH\Controllers\Accueil.php(14): view('banniere06')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accueil->accueil()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:16:19 --> Call to undefined function form_open()
+in APPPATH\Views\banniere06.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('banniere06', [], true)
+ 4 APPPATH\Controllers\Accueil.php(14): view('banniere06')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accueil->accueil()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:16:35 --> Call to undefined function form_open()
+in APPPATH\Views\banniere06.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('banniere06', [], true)
+ 4 APPPATH\Controllers\Accueil.php(14): view('banniere06')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accueil->accueil()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:16:39 --> Call to undefined function form_open()
+in APPPATH\Views\banniere06.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('banniere06', [], true)
+ 4 APPPATH\Controllers\Accueil.php(14): view('banniere06')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Accueil->accueil()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:18:22 --> Undefined index: nom
+in APPPATH\Models\Mail.php on line 13.
+ 1 APPPATH\Models\Mail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nom', 'APPPATH\\Models\\Mail.php', 13, [])
+ 2 APPPATH\Controllers\Contact.php(21): App\Models\Mail->mailinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->sendemail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:18:51 --> Undefined index: nom
+in APPPATH\Models\Mail.php on line 13.
+ 1 APPPATH\Models\Mail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nom', 'APPPATH\\Models\\Mail.php', 13, [])
+ 2 APPPATH\Controllers\Contact.php(21): App\Models\Mail->mailinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->sendemail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:19:04 --> Undefined index: nom
+in APPPATH\Models\Mail.php on line 13.
+ 1 APPPATH\Models\Mail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nom', 'APPPATH\\Models\\Mail.php', 13, [])
+ 2 APPPATH\Controllers\Contact.php(21): App\Models\Mail->mailinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->sendemail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-04 22:21:07 --> Undefined index: demande
+in APPPATH\Models\Mail.php on line 16.
+ 1 APPPATH\Models\Mail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: demande', 'APPPATH\\Models\\Mail.php', 16, [])
+ 2 APPPATH\Controllers\Contact.php(21): App\Models\Mail->mailinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->sendemail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-04-04 22:21:30 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\shalom\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'E:\\shalom\\syste...', 1735, Array)
+#1 E:\shalom\system\Email\Email.php(1735): mail('contact@axel.mg', '=?UTF-8?Q?Deman...', 'Test Message\r\n', 'Date: Tue, 4 Ap...', '-f contact@shal...')
+#2 E:\shalom\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 E:\shalom\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 E:\shalom\app\Controllers\Contact.php(32): CodeIgniter\Email\Email->send()
+#5 E:\shalom\system\CodeIgniter.php(934): App\Controllers\Contact->sendemail()
+#6 E:\shalom\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 E:\shalom\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\shalom\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\shalom\system\Commands\Server\rewrite.php(47): require_once('E:\\shalom\\publi...')
+#10 {main}
+ERROR - 2023-04-04 22:21:30 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-04-04 22:21:30 --> 
+ERROR - 2023-04-04 22:21:43 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\shalom\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'E:\\shalom\\syste...', 1735, Array)
+#1 E:\shalom\system\Email\Email.php(1735): mail('contact@axel.mg', '=?UTF-8?Q?Deman...', 'Test Message\r\n', 'Date: Tue, 4 Ap...', '-f contact@shal...')
+#2 E:\shalom\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 E:\shalom\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 E:\shalom\app\Controllers\Contact.php(32): CodeIgniter\Email\Email->send()
+#5 E:\shalom\system\CodeIgniter.php(934): App\Controllers\Contact->sendemail()
+#6 E:\shalom\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 E:\shalom\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\shalom\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\shalom\system\Commands\Server\rewrite.php(47): require_once('E:\\shalom\\publi...')
+#10 {main}
+ERROR - 2023-04-04 22:21:43 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-04-04 22:21:43 --> 

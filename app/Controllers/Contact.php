@@ -2,9 +2,8 @@
     namespace App\Controllers;
 
     use App\Models\Mail;
-    use App\Config\Services;
 
-    helper(['form', 'url']);
+    
 
     class Contact extends BaseController
     {
@@ -17,20 +16,23 @@
 
         public function sendemail()
         {
-            $model = model(Mail::class);
-            $data = $model->mailinfo();
+            helper(['form', 'url']);
+    		$model = model(Mail::class);
+    		$data = $model->mailinfo();
 
-            $email = Services::email();
+            $email = \Config\Services::email();
 
             $email->setFrom('contact@shalom.mg', 'Site web Shalom');
             $email->setTo('contact@axel.mg');
-            // $email->setCC($data['email']);
+            $email->setCC($data['email']);
             // $email->setBCC('');
-            $email->setSubject('Demande de la part de ');
-            $email->setMessage('');
+            $email->setSubject('Demande de la part de ' . $data['nom']);
+            $email->setMessage($data['message']);
 
             $email->send();
             return redirect()->to('/');
+            //$email->printDebugger(['headers']);
+			//var_dump($data);
         }
 
 
