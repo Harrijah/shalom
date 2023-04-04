@@ -8,10 +8,10 @@
             <div class="separator02"></div>
             <!-- <?php //echo form_open('email'); ?> -->
             <form action="<?php echo base_url('email'); ?>" method="post" enctype="form-data">
-                <input type="text" placeholder="Votre nom">
-                <input type="email" name="" id="" placeholder="Votre adresse e-mail">
-                <input type="text" name="" id="" placeholder="Votre numéro de téléphone">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Votre message, ici ..."></textarea>
+                <input type="text" name="nom" placeholder="Votre nom">
+                <input type="email" name="email" id="" placeholder="Votre adresse e-mail">
+                <input type="text" name="telephone" id="" placeholder="Votre numéro de téléphone">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message, ici ..."></textarea>
                 <input type="submit"  class="mybutton" value="Envoyer">
             </form>
         </div>
