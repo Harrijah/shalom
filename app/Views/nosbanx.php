@@ -29,8 +29,8 @@
                         <div style="border-left: solid 10px var(--color07); padding-left: 20px;">
                         <p>
                         Notre programme de "Nutrithérapie" vise à utiliser l'<b>alimentation comme médicament</b>. Nous nous assurons que nos résidents reçoivent une alimentation saine et équilibrée pour maintenir leur santé. <br><br>
-                        Sur la direction du Dr Josiane Rakotomalala, également <b>coach en nutrithérapie</b>, notre équipe élabore, au quotidien, des menus adaptés à chaque résident en fonction de leurs besoins et de leurs préférences. Nous prenons en compte les allergies alimentaires, les intolérances et les régimes spécifiques, et nous privilégions les aliments frais et locaux pour garantir une alimentation de qualité.<br><br>
-
+                        Sur la direction du Dr Josiane Rakotomalala, également <b>coach en nutrithérapie</b>, notre équipe élabore, au quotidien, des menus adaptés à chaque résident en fonction de leurs besoins et de leurs préférences. Nous prenons en compte les allergies alimentaires, les intolérances et les régimes spécifiques, et nous privilégions les aliments frais et locaux pour garantir une alimentation de qualité.<br>
+                        Nous proposons divers programmes basés sur la médecine alternative comme la réflexothérapie, massage, Taichi, Reiki, magnetotherapie, et selon les traitements, des anti-douleurs sans produits chimiques afin de préserver la fonction rénale; ex:appareil "Tens "", "Pach magnétique , ...<br><br>
                         Nous offrons également des <b>ateliers de cuisine</b> et des <b>séances d'information</b> pour sensibiliser nos résidents à l'importance de l'alimentation dans la prévention et la gestion des maladies. 
                         </p>
                     </div>
