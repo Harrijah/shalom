@@ -7,7 +7,7 @@
             <ul>
                 <li><i class="fa fa-check usercheck"></i> Toutes personnes âgées en bonne santé apparente susceptibles de prendre soins de leur physique en vue de prévenir toutes les maladies dégénératives liées à l’âge</li>
                 <li><i class="fa fa-check usercheck"></i> Les personnes âgées souffrant des douleurs articulaires ou de dos chroniques</li>
-                <li><i class="fa fa-check usercheck"></i> Les malades atteints d’Alzheimer au stade de début</li>
+                <li><i class="fa fa-check usercheck"></i> Les malades atteints d’Alzheimer</li>
                 <li><i class="fa fa-check usercheck"></i> Les malades atteints de la maladie de Parkinson au stade de début ou pas</li>
                 <li><i class="fa fa-check usercheck"></i> Les personnes en convalescence, ou qui viennent sortir d'hôpital.</li>
             </ul>

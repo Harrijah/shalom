@@ -15,7 +15,7 @@
                             <li>en leur apprenant des mouvements de coordinations adaptés pour stimuler leur mémoire et ainsi éviter certaines démences.</li>
                         </ul>
                     </li>
-                    <li>Les malades atteints d’Alzheimer au stade de début :
+                    <li>Les malades atteints d’Alzheimer :
                         <ul>
                             <li>pour éviter la progression de la maladie ou même l’améliorer</li>
                         </ul>

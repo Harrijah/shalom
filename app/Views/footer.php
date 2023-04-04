@@ -23,7 +23,7 @@
         <div class="footer-contact">
             <h3>Nous trouver :</h3>
             <ul class="contact-list">
-                <li><u>Adresse</u> : Cité des Assurreurs Itaosy </li>
+                <li><u>Adresse</u> : FKT ‘Akany Sambatra’ Itaosy </li>
                 <li><u>Mail</u> : contact@shalom.mg </li>
                 <li><u>Téléphone</u> : +261 (0)34 38 129 35</li>
             </ul>
