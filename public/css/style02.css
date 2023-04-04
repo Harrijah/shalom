@@ -1,14 +1,16 @@
 .intern01{
   margin-top: 75px;
 }
+.xtrabanner{
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
 .standard-text{
     position: relative;
     display: inline-block;
     padding: 20px;
-}
-
-.standard-text{
-    width: 70%;
+    width: 65%;
 }
 
 /* Introduction */
@@ -18,14 +20,16 @@
 .aboutus-container{
   position: relative;
   display: inline-block;
+  width: 34%;
   vertical-align: top;
   filter: drop-shadow(3px 4px 2px var(--color07));
 }
 .aboutus-img{
   clip-path: polygon(0 0, 74% 0, 100% 100%, 25% 100%);
   background: url(../image/beaute.jpg) center/cover;
+  background-size: cover;
   height: 300px;
-  width: 300px;
+  width: 25vw;
   border: solid 2px var(--color04);
 }
 .aboutus-img img{
@@ -251,9 +255,6 @@
 /* ********************************** Responsive ************************************** */
 
 @media screen and (max-width:1100px){
-  .standard-text{
-    width: 100%;
-  }
   .mydoc, .assistante-img{
     display: block;
     float: none;
@@ -266,14 +267,23 @@
     width: 90%;
     transform: rotate(0deg);
   }
+}
+@media screen and (max-width: 700px){
+  .standard-text{
+      width: 90%;
+  }
+  .aboutus-img{
+    width: 400px;
+  }
   .brefimg{
     position: relative;
     margin: auto;
     float: none;
     width: 100%;
   }
-}
-@media screen and (max-width: 700px){
+  /* .standard-text{
+    width: 100%;
+  } */
   .cadre-image{
     display: grid;
     grid-template-columns: auto;

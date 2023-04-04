@@ -18,6 +18,8 @@
 
 body{
   background: var(--color03);
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
 }
 .spacer01{
   position: relative;

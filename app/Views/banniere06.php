@@ -6,7 +6,8 @@
         <div class="form-type">
             <h2>Nous contacter</h2>
             <div class="separator02"></div>
-            <form action="" method="post">
+            <!-- <?php //echo form_open('email'); ?> -->
+            <form action="<?php echo base_url('contact'); ?>" method="post" enctype="form-data">
                 <input type="text" placeholder="Votre nom">
                 <input type="email" name="" id="" placeholder="Votre adresse e-mail">
                 <input type="text" name="" id="" placeholder="Votre numéro de téléphone">
