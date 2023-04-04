@@ -19,6 +19,7 @@
                         L'<b>aromathérapie</b> est une autre option pour nos résidents. Nous utilisons des huiles essentielles pour traiter différents troubles et aider à réduire le stress. <br>
 
                         Nous proposons une "<b>Thérapie non médicamenteuse</b>", qui comprend divers jeux et ateliers pour stimuler la cognition de nos résidents, mais aussi des interactions sociales et la reminescence, pour aider nos résidents à se sentir connectés, heureux et de maintenir leur esprit actif et alerte.<br>
+                        Nous proposons divers programmes basés sur la <b>médecine alternative</b> comme la réflexothérapie, massage, Taichi, Reiki, magnetotherapie, et selon les traitements, des anti-douleurs sans produits chimiques afin de préserver la fonction rénale; ex:appareil "Tens "", "Pach magnétique , ...<br><br>
                         Des <b>sorties</b> sont régulièrement organisées avec nos résidents, dont une sortie en bord de mer une fois par an.
                         </p>
                     </div>
@@ -29,8 +30,7 @@
                         <div style="border-left: solid 10px var(--color07); padding-left: 20px;">
                         <p>
                         Notre programme de "Nutrithérapie" vise à utiliser l'<b>alimentation comme médicament</b>. Nous nous assurons que nos résidents reçoivent une alimentation saine et équilibrée pour maintenir leur santé. <br><br>
-                        Sur la direction du Dr Josiane Rakotomalala, également <b>coach en nutrithérapie</b>, notre équipe élabore, au quotidien, des menus adaptés à chaque résident en fonction de leurs besoins et de leurs préférences. Nous prenons en compte les allergies alimentaires, les intolérances et les régimes spécifiques, et nous privilégions les aliments frais et locaux pour garantir une alimentation de qualité.<br>
-                        Nous proposons divers programmes basés sur la médecine alternative comme la réflexothérapie, massage, Taichi, Reiki, magnetotherapie, et selon les traitements, des anti-douleurs sans produits chimiques afin de préserver la fonction rénale; ex:appareil "Tens "", "Pach magnétique , ...<br><br>
+                        Sur la direction du Dr Josiane Rakotomalala, également <b>coach en nutrithérapie</b>, notre équipe élabore, au quotidien, des menus adaptés à chaque résident en fonction de leurs besoins et de leurs préférences. Nous prenons en compte les allergies alimentaires, les intolérances et les régimes spécifiques, et nous privilégions les aliments frais et locaux pour garantir une alimentation de qualité.<br><br>
                         Nous offrons également des <b>ateliers de cuisine</b> et des <b>séances d'information</b> pour sensibiliser nos résidents à l'importance de l'alimentation dans la prévention et la gestion des maladies. 
                         </p>
                     </div>
