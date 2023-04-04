@@ -24,10 +24,10 @@
 
             $email->setFrom('contact@shalom.mg', 'Site web Shalom');
             $email->setTo('contact@axel.mg');
-            $email->setCC($data['email']);
+            // $email->setCC($data['email']);
             // $email->setBCC('');
-            $email->setSubject('Demande de la part de '. $data['nom']);
-            $email->setMessage($data['message']);
+            $email->setSubject('Demande de la part de ');
+            $email->setMessage('');
 
             $email->send();
             return redirect()->to('/');
