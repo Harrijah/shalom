@@ -22,12 +22,16 @@
 
             $email = \Config\Services::email();
 
-            $email->setFrom('contact@shalom.mg', 'Site web Shalom');
-            $email->setTo('contact@axel.mg');
+            $email->setFrom('info@shalom.mg', 'Site web Shalom');
+            $email->setTo('contact@shalom.mg');
             $email->setCC($data['email']);
-            // $email->setBCC('');
+            $email->setBCC('andrianarivohari@gmail.com');
             $email->setSubject('Demande de la part de ' . $data['nom']);
-            $email->setMessage($data['message']);
+            $email->setMessage(
+                'Message de <b>'. $data['nom'] . '</b></br>' .
+                'Téléphone : <b>'. $data['telephone'] . '</b></br>' .
+                $data['message']
+            );
 
             $email->send();
             return redirect()->to('/');
