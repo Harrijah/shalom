@@ -49,7 +49,8 @@
             }
 
             if(!$this->validate($rules, $errors)){
-                $data['validation'] = $this->validator;
+                // $data['validation'] = $this->validator;
+                return redirect()->back()->withInput();
             } else {
 
                 $email->setFrom('noreply@shalom.mg', 'Site web Shalom');
