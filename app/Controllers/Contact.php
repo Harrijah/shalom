@@ -25,8 +25,8 @@
 
             if($this->request->getMethod() == 'get'){
                 $rules = [
-                    'email' => 'required'|valid_email,
-                    'telephone' => 'required'|max_length[15],
+                    'email' => 'required|valid_email',
+                    'telephone' => 'required|max_length[15]',
                     'nom' => 'required',
                     'message' => 'required',
 
