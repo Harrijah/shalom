@@ -1,27 +1,28 @@
 <section>
     <div class="spacer01"></div>
-    <div class="bann-content">
+    <div class="bann-content08">
         <h2 style="text-align:center;">Notre équipe</h2>
         
         <div class="separator01"></div>
 
-        <div class="bann-content03 border-me03" style="">
-            <div style="margin-bottom: 35px; padding: 20px 0 0 30px;">
-            
-                <h3>Un médecin  coordonnateur et gérante du centre</h3>
-                <p style="width: 70%;">
-                    Le Dr Josiane Rakotomalala assure l'élaboration et la planification des projets du centre, garantit le bon déroulement des activités, et en assure leur diversification afin d'éviter la routine. 
-                </p>
-                <!-- <p>
-                    Le Docteur Josiane Rakotomalala a pour mission principale d'assurer le développement psychosocial et la stimulation cognitive de nos résidents que ce soit en internat ou en externat.  
-                </p>
-                <p>
-                    Pour ce faire, nous utilisons différentes techniques de stimulation cognitive, telles que des tests et des jeux de mémoire, ainsi que des moments d'échanges sur l'histoire de nos résidents grâce à la Réminiscence. Nous sommes également attachés à assurer une prise en charge sociale et spirituelle complète pour chaque résident afin de procurer un confort physique et psychologique optimal.
-                </p> -->
+        <div class="bann-content03 border-me03" style="border: solid 4px var(--color05);">
+                <div class="carde-intern">
+                
+                    <h3>Un médecin  coordonnateur et gérante du centre</h3>
+                    <p style="width: 90%;">
+                        Le Dr Josiane Rakotomalala assure l'élaboration et la planification des projets du centre, garantit le bon déroulement des activités, et en assure leur diversification afin d'éviter la routine. 
+                    </p>
+                    <!-- <p>
+                        Le Docteur Josiane Rakotomalala a pour mission principale d'assurer le développement psychosocial et la stimulation cognitive de nos résidents que ce soit en internat ou en externat.  
+                    </p>
+                    <p>
+                        Pour ce faire, nous utilisons différentes techniques de stimulation cognitive, telles que des tests et des jeux de mémoire, ainsi que des moments d'échanges sur l'histoire de nos résidents grâce à la Réminiscence. Nous sommes également attachés à assurer une prise en charge sociale et spirituelle complète pour chaque résident afin de procurer un confort physique et psychologique optimal.
+                    </p> -->
+                </div>
 
                 <div class="bann-content05">
-                    <div class="">
-                        <img src="<?php echo base_url('image/dr02.fw.png'); ?>" alt="docteur nutrithérapeute" class="standard-image mydoc" style="border-bottom: solid 4px var(--color07); width: 350px; height: auto;">     
+                    <div class="img-go">
+                        <img src="<?php echo base_url('image/dr02.fw.png'); ?>" alt="docteur nutrithérapeute" class="standard-image mydoc goout" style="padding: 20px 20px 0 20px;">     
                     </div>
                     <div class="equipe02">
                         <p>
@@ -38,38 +39,44 @@
                         </p>
                     </div> 
                 </div>
-            </div>
 
-            <div class="separator01"></div>
+                <div class="separator01"></div>
+                
             
-        
-            <div class="equipe03" style="padding: 0 30px;">
-                <h3>Un Directeur artistique </h3>
-                <p style="width: 80%;">
-                    Le rôle du directeur artistique chez Shalom - Maison d'Accueil est de créer un environnement stimulant pour les résidents en favorisant des activités créatives telles que la peinture, le chant et la musique. Il vise à stimuler les cinq sens et à encourager les résidents à exprimer leur créativité tout en réduisant les troubles du comportement et l'isolement. Le directeur artistique respecte le rythme et les choix des résidents, tout en cherchant à leur offrir des moments de bonheur et de connexion avec le monde qui les entoure.
-                </p>
-            </div>
-
-            <div class="separator01"></div>
-
-            <div class="equipe03"  style="padding:0 30px;">
-                <h3 style="text-align: center;">Des animatrices</h3>
-                <div>
-                    <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image border-me02 assistante-img" style="width: 350px; height: auto;">   
+                <div class="equipe03" style="padding: 0 30px;">
+                    <h3>Un Directeur artistique </h3>
+                    <p style="width: 90%;">
+                        Le rôle du directeur artistique chez Shalom - Maison d'Accueil est de créer un environnement stimulant pour les résidents en favorisant des activités créatives telles que la peinture, le chant et la musique. Il vise à stimuler les cinq sens et à encourager les résidents à exprimer leur créativité tout en réduisant les troubles du comportement et l'isolement. Le directeur artistique respecte le rythme et les choix des résidents, tout en cherchant à leur offrir des moments de bonheur et de connexion avec le monde qui les entoure.
+                    </p>
                 </div>
-                <p>
-                    Les animatrices chez Shalom - Maison d'Accueil sont des professionnelles engagées et conviviales, qui contribuent à offrir un environnement stimulant et encourageant pour les personnes âgées. Grâce à leur savoir-faire, leur écoute et leur disponibilité, elles permettent à nos résidents de vivre des moments de partage et d'échange, tout en contribuant à leur bien-être physique et mental. <br><br>
 
-                    Elles ont pour objectif de favoriser le moment d'échange et accompagnent également les personnes en perte d'autonomie physique pour leur permettre de participer aux activités proposées, par exemple dans l'organisation des sorties, des promenades, des jeux de société et des ateliers créatifs. <br><br>
+                <div class="separator01"></div>
 
-                    En étant à l'écoute des attentes des résidents, les animatrices sont en mesure de personnaliser les activités proposées, en leur apportant de la gaieté et du dynamisme en fonction des préférences de chacun. Elles réhabilitent ainsi les liens sociaux des personnes âgées à travers des rencontres intergénérationnelles et offrent aux personnes âgées la possibilité de s'exprimer et de partager des moments agréables avec les autres résidents et membres du personnel.
-                </p>
-            </div>
+                <h3 style="padding: 0 30px;">Des animatrices</h3>
+                <div class="bann-content05" >
+                    <div class="img-go">
+                        <img src="<?php echo base_url('image/assistante02.jpg'); ?>" alt="assistante" class="standard-image mydoc goout">   
+                    </div>
+                    <div class="equipe02">
+                        <p>
+                        Les animatrices chez Shalom - Maison d'Accueil sont des professionnelles engagées et conviviales, qui contribuent à offrir un environnement stimulant et encourageant pour les personnes âgées. Grâce à leur savoir-faire, leur écoute et leur disponibilité, elles permettent à nos résidents de vivre des moments de partage et d'échange, tout en contribuant à leur bien-être physique et mental. <br><br>
+
+                        Elles ont pour objectif de favoriser le moment d'échange et accompagnent également les personnes en perte d'autonomie physique pour leur permettre de participer aux activités proposées, par exemple dans l'organisation des sorties, des promenades, des jeux de société et des ateliers créatifs.
+                    </p>
+                </div>
+
+                <div class="" style="padding: 0 30px;">
+                    <p style="width: 90%;">
+                        En étant à l'écoute des attentes des résidents, les animatrices sont en mesure de personnaliser les activités proposées, en leur apportant de la gaieté et du dynamisme en fonction des préférences de chacun. Elles réhabilitent ainsi les liens sociaux des personnes âgées à travers des rencontres intergénérationnelles et offrent aux personnes âgées la possibilité de s'exprimer et de partager des moments agréables avec les autres résidents et membres du personnel.
+                    </p>
+                </div>
+
+            <!-- </div> -->
 
             <div class="separator01"></div>
 
             <div class="bann-content04">
-                <div class="equipe border-me">
+                <div class="equipe border-me" style="box-shadow:none">
                     <h3 style="text-align: center;">Un coach en Zumba senior</h3>
                     <ul>
                         <li>Il travaille en étroite collaboration avec le coach de gymnastique douce</li>
@@ -77,7 +84,7 @@
                         <li>Il associe cette activité à des chants et danses</li>
                     </ul>
                 </div>
-                <div class="equipe border-me">
+                <div class="equipe border-me" style="box-shadow:none">
                     <h3 style="text-align: center;">Un coach en Gym douce </h3><span></span>
                     <ul>
                         <li>Il prépare et organise les exercices musculaires.</li>
@@ -88,7 +95,7 @@
             </div>
 
             <div class="bann-content04">
-                <div class="equipe border-me">
+                <div class="equipe border-me" style="box-shadow:none">
                     <h3 style="text-align: center;">Un personnel administratif</h3>
                     <ul>
                         <li>Il assurer toutes les tâches administratives</li>
@@ -99,7 +106,7 @@
                         <li>Il planifie le voyage annuel en mer après validation du gérant du centre</li>
                     </ul>
                 </div>
-                <div class="equipe border-me">
+                <div class="equipe border-me" style="box-shadow:none">
                     <h3 style="text-align: center;">Des assistantes</h3>
                     <ul>
                         <li>Elles assurent les moments de lecture (les nouvelles du jour et revue de presse)</li>

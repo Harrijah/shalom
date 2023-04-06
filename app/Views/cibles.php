@@ -39,7 +39,8 @@
                     </li>
 
                 </ol>
-            </div><div class="img-content02 border-me02">
+            </div>
+            <div class="img-content02 border-me02">
                 <img src="<?php echo base_url('image/residents.jpg') ?>" alt="les résidents du centre d'accueil" class="brefimg">
             </div>    
 

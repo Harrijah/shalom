@@ -9,6 +9,7 @@
             . view('intro')
             . view('cibles') 
             . view('equipe')
+            . view('approche')
             . view('banniere06')
             . view('footer');
         }

@@ -7,10 +7,10 @@
             <div class="separator02"></div>
             <div class="grid-me">
                 <div class="vide"></div>
-                <img src="<?php echo base_url('image/programme.jpg') ?>" class="standard-image border-me02 sec01" alt="personnes agées dans piscine">
+                <img src="<?php echo base_url('image/programme.jpg') ?>"  style="z-index: -1;" class="standard-image border-me02 sec01" alt="personnes agées dans piscine">
                 <div class="sec02">
                     <h3>Un programme riche et varié</h3>
-                    <div style="border-left: solid 10px var(--color07); padding-left: 20px;">
+                    <div class="pousseoir">
                         <p>
                         Notre programme "<b>Beauté au naturel</b>" comprend des soins du visage, de la manucure et de la pédicure pour permettre à nos résidents de se sentir beaux et bien dans leur peau.<br>
 
@@ -27,7 +27,7 @@
                 <!-- <div class="separator01 sep"></div> -->
                 <div class="sec03">
                     <h3>La Nutri-thérapie</h3>
-                        <div style="border-left: solid 10px var(--color07); padding-left: 20px;">
+                        <div class="pousseoir">
                         <p>
                         Notre programme de "Nutrithérapie" vise à utiliser l'<b>alimentation comme médicament</b>. Nous nous assurons que nos résidents reçoivent une alimentation saine et équilibrée pour maintenir leur santé. <br><br>
                         Sur la direction du Dr Josiane Rakotomalala, également <b>coach en nutrithérapie</b>, notre équipe élabore, au quotidien, des menus adaptés à chaque résident en fonction de leurs besoins et de leurs préférences. Nous prenons en compte les allergies alimentaires, les intolérances et les régimes spécifiques, et nous privilégions les aliments frais et locaux pour garantir une alimentation de qualité.<br><br>
@@ -35,7 +35,7 @@
                         </p>
                     </div>
                 </div>
-                <img src="<?php echo base_url('image/monalimentation.jpeg') ?>" class="standard-image border-me02 sec04" alt="personnes agées avec ballon">               
+                <img src="<?php echo base_url('image/monalimentation.jpeg') ?>" style="z-index: -1;" class="standard-image border-me02 sec04" alt="personnes agées avec ballon">               
             </div>
         </div>
     </div>

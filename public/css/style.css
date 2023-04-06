@@ -57,6 +57,7 @@ h3{
   margin: 20px auto;
   min-width: 400px;
   width: 80vw;
+  background: var(--color05);
 }
 .bann-content04{
   position: relative;
@@ -64,15 +65,16 @@ h3{
   justify-content: space-around;
   margin: 20px auto;
   min-width: 400px;
-  width: 100%;
 }
 .bann-content05{
   position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
+  /* display: flex; */
+  /* justify-content: space-around;
+  align-items: end; */
   margin: 20px auto;
   min-width: 400px;
+  width: 100%;
+  height: fit-content;
 }
 .bann-content06{
   position: relative;
@@ -92,6 +94,18 @@ h3{
   min-width: 400px;
   width: 80vw;
 }
+.bann-content08{
+  position: relative;
+  /* display: flex; */
+  /* justify-content: space-around;
+  align-items: end; */
+  margin: 20px auto;
+  padding: 40px 0;
+  min-width: 400px;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--color03);
+}
 .border-me{
   background-color: var(--color05);
   margin: 20px;
@@ -108,9 +122,8 @@ h3{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .border-me03{
-  background-color: var(--color05);
   /* margin: 20px; */
-  padding: 20px;
+  /* padding: 20px; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border: solid 1px var(--color04);
   border-radius: 5px;
@@ -378,10 +391,13 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 95vh;
   padding: 150px 40px 40px 0;
 }
 .qui{
-  position: relative;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
   width:70%;
 }
 .qui-text{
@@ -607,8 +623,9 @@ textarea{
   .sep{
     display: none;
   }
-  .bann-content02, .bann-content04, .bann-content05, .bann-content06, .bann-content07{
+  .bann-content, .bann-content02, .bann-content04, .bann-content05, .bann-content06, .bann-content07{
     display: block;
+    height: fit-content;
   }
   .bann-content05 .mydoc, .mytext02{
     margin: auto 20px;

@@ -22,14 +22,14 @@
 
             $email = \Config\Services::email();
 
-            $email->setFrom('info@shalom.mg', 'Site web Shalom');
+            $email->setFrom('noreply@shalom.mg', 'Site web Shalom');
             $email->setTo('contact@shalom.mg');
-            $email->setCC($data['email']);
+            // $email->setCC($data['email'], 'contact@shalom.mg');
             $email->setBCC('andrianarivohari@gmail.com');
             $email->setSubject('Demande de la part de ' . $data['nom']);
             $email->setMessage(
-                'Message de <b>'. $data['nom'] . '</b></br>' .
-                'Téléphone : <b>'. $data['telephone'] . '</b></br>' .
+                'Message de '. $data['nom'] . 
+                'Téléphone : '. $data['telephone'] . 
                 $data['message']
             );
 
