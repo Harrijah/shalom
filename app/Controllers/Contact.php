@@ -49,7 +49,7 @@
             }
 
             if(!$this->validate($rules, $errors)){
-                $data['validation'] = $this->validator
+                $data['validation'] = $this->validator;
             } else {
 
                 $email->setFrom('noreply@shalom.mg', 'Site web Shalom');
