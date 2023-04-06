@@ -8,6 +8,16 @@
             <div class="separator02"></div>
             <?php //echo form_open('email'); ?>
             
+                <?php if (! empty($errors)): ?>
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                        <?php foreach ($errors as $error): ?>
+                            <li><?= esc($error) ?></li>
+                        <?php endforeach ?>
+                        </ul>
+                    </div>
+                <?php endif ?>
+
             <form action="<?php echo base_url('email'); ?>" method="GET" enctype="form-data">
                 <input type="text" name="nom" placeholder="Votre nom">
                 <input type="email" name="email" id="" placeholder="Votre adresse e-mail">
