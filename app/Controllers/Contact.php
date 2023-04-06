@@ -35,16 +35,16 @@
                 $errors = [
                     'email' => [
                         'validateUser' => 'Veuillez remplir par votre adresse e-mail.'
-                    ];
+                    ],
                     'telephone' => [
                         'validateUser' => 'Veuillez remplir par un numéro de téléphone valide.'
-                    ];
+                    ],
                     'nom' => [
                         'validateUser' => 'Veuillez renseigner votre nom.'
-                    ];
+                    ],
                     'message' => [
                         'validateUser' => 'Vous avez oublié d\'écrire votre message.'
-                    ];
+                    ],
                 ];
             }
 
