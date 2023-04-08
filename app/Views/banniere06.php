@@ -23,7 +23,7 @@
 				
 				<?php  if (isset($validation)): ?>
 					<div class="alert alert-danger" role="alert">
-						<?= $validation->listErrors() ?>
+						<?= $validation->listErrors(); ?>
 					</div>
 				<?php endif; ?>
 				

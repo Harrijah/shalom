@@ -1,22 +1,35 @@
 $(document).ready(function() {// Récupérer tous les éléments du document
     // Récupérer l'élément parent
-const parentElement = document.getElementsByClassName("mytext03");
+let menumobile02 = document.getElementById("menumobile02");
+let mobilemenulist = document.getElementById("menumobile03");
 
-// Récupérer le premier enfant de l'élément parent
-let childNode = parentElement.firstChild;
+// menu.onclick = ()=>{
 
-// Parcourir tous les enfants de l'élément parent
-while (childNode) {
-  // Vérifier si le nœud est un nœud texte et s'il contient uniquement des espaces
-  if (childNode.nodeType === Node.TEXT_NODE && /^\s*$/.test(childNode.nodeValue)) {
-    // Supprimer le nœud texte
-    childNode.remove();
+// }
+menumobile02.onclick = function(e){
+  if(mobilemenulist.style.display == 'none'){
+    // if(mobilemenulist.style.display == "none"){
+      mobilemenulist.style.display = "block";
+      // }
+    }else{
+      
+      mobilemenulist.style.display = "none";
   }
+    // menu.classList.remove("active");
+    // menumobile03.style.display = "block";
+    // if(
+      // ){
+    //   alert("ok");
+    // }
+    // alert('ok');
+  // alert("ok");
+  // menu.classListe.add("active");
+  // menumobile03.style.display = "block";
+};
 
-  // Passer au prochain enfant
-  childNode = childNode.nextSibling;
-}
-
+// menumobile03.addEventListener('click', function(){
+//   alert("ok");
+// });
     
     // alert('connected');
 

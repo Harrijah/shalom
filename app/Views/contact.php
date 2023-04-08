@@ -21,13 +21,31 @@
         <div class="form-type02">
             <h2>Votre message </h2>
             <div class="separator02"></div>
-            <form action="" method="post">
-                <input type="text" placeholder="Votre nom">
-                <input type="email" name="" id="" placeholder="Votre adresse e-mail">
-                <input type="text" name="" id="" placeholder="Votre numéro de téléphone">
-                <input type="text" name="" id="" placeholder="Objet de votre demande">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Votre message, ici ..."></textarea>
+            <form action="<?php echo base_url('sendcontact'); ?>" method="POST" enctype="form-data">
+                <input type="text"  name="nom" placeholder="Votre nom">
+                <?php if(isset($errors['nom'])) echo '<div class="invalid-feedback">' . $errors['nom'] . '</div>'; ?>
+
+                <input type="email" name="email" id="" placeholder="Votre adresse e-mail">
+                <?php if(isset($errors['email'])) echo '<div class="invalid-feedback">' . $errors['email'] . '</div>'; ?>
+
+                <input type="text" name="telephone" id="" placeholder="Votre numéro de téléphone">
+                <?php if(isset($errors['telephone'])) echo '<div class="invalid-feedback">' . $errors['telephone'] . '</div>'; ?>
+
+                <input type="text" name="demande" id="" placeholder="Objet de votre demande">
+                <?php if(isset($errors['demande'])) echo '<div class="invalid-feedback">' . $errors['demande'] . '</div>'; ?>
+
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message, ici ..."></textarea>
+                <?php if(isset($errors['message'])) echo '<div class="invalid-feedback">' . $errors['message'] . '</div>'; ?>
+
+                
+				<?php  if (isset($validation)): ?>
+					<div class="alert alert-danger" role="alert">
+						<?= $validation->listErrors() ?>
+					</div>
+				<?php endif; ?>
+
                 <input type="submit"  class="mybutton" value="Envoyer">
+
             </form>
         </div>
     </div>

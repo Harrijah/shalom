@@ -19,6 +19,18 @@
             return $data;
         }
 
+        public function mailcontact()
+        {
+            $data = [
+                'nom' => ($_POST['nom']),
+                'email' => ($_POST['email']),
+                'telephone' => ($_POST['telephone']),
+                'demande' => ($_GET['demande']),
+                'message' => ($_POST['message'])
+            ];
+            return $data;
+        }
+
 
 
 

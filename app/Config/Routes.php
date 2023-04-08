@@ -36,6 +36,7 @@ $routes->get('/externat', 'Services::externat');
 $routes->get('/contact', 'Contact::contact');
 // $routes->post('/email', 'Contact::sendemail');
 $routes->match(['get', 'post'], '/email', 'Contact::sendemail');
+$routes->match(['get', 'post'], '/sendcontact', 'Contact::sendcontact');
 // $routes->get('form', 'Form::index');
 // $routes->post('form', 'Form::index');
 
