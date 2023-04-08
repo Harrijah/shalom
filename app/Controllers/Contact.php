@@ -16,20 +16,19 @@
 
         public function sendemail()
         {
-            helper(['form', 'url']);
+            helper(['form']);
     		$model = model(Mail::class);
     		$data = $model->mailinfo();
+    		// $data = [];
 
             $email = \Config\Services::email();
 
-
-            if($this->request->getMethod() == 'get'){
+            if($this->request->getMethod() == 'post'){
                 $rules = [
                     'email' => 'required|valid_email',
                     'telephone' => 'required|max_length[15]',
                     'nom' => 'required',
                     'message' => 'required',
-
                 ];
 
                 $errors = [
@@ -48,9 +47,11 @@
                 ];
             }
 
-            if(!$this->validate($rules, $errors)){
-                // $data['validation'] = $this->validator;
-                return redirect()->back()->withInput();
+            if(! $this->validate($rules, $errors)){
+                $data['errors'] = $this->validator->getErrors();
+                $data['validation'] = $this->validator;
+                return view('header', $data)
+                . view('banniere06');
             } else {
 
                 $email->setFrom('noreply@shalom.mg', 'Site web Shalom');

@@ -1,5 +1,6 @@
 <?php
     namespace App\Controllers;
+    helper(['form']);
 
     Class Services extends BaseController
     {

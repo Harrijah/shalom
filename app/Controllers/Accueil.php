@@ -1,11 +1,14 @@
 <?php
     namespace App\Controllers;
+    helper(['form']);
 
     class Accueil extends BaseController
     {
+
         public function accueil()
         {
-            return view('header')
+            $data =[];
+            return view('header', $data)
             . view('banniere01')
             . view('banniere02')
             . view('banniere03')

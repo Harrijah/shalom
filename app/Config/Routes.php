@@ -34,7 +34,10 @@ $routes->get('/aboutus', 'Aboutus::aboutus');
 $routes->get('/internat', 'Services::internat');
 $routes->get('/externat', 'Services::externat');
 $routes->get('/contact', 'Contact::contact');
-$routes->get('/email', 'Contact::sendemail');
+// $routes->post('/email', 'Contact::sendemail');
+$routes->match(['get', 'post'], '/email', 'Contact::sendemail');
+// $routes->get('form', 'Form::index');
+// $routes->post('form', 'Form::index');
 
 /*
  * --------------------------------------------------------------------

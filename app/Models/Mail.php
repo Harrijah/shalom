@@ -10,11 +10,11 @@
         public function mailinfo()
         {
             $data = [
-                'nom' => ($_GET['nom']),
-                'email' => ($_GET['email']),
-                'telephone' => ($_GET['telephone']),
+                'nom' => ($_POST['nom']),
+                'email' => ($_POST['email']),
+                'telephone' => ($_POST['telephone']),
                 // 'demande' => ($_GET['demande']),
-                'message' => ($_GET['message'])
+                'message' => ($_POST['message'])
             ];
             return $data;
         }

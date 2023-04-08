@@ -17,7 +17,7 @@
 <body>
 
 <nav class="menu">
-    <div class="logo"></div>
+    <div class="logo"><a href="<?php echo base_url(''); ?>"><img src="<?php echo base_url('image/shalom.png'); ?>" alt="logo" class="logo"></a></div>
     <div class="menulist">
         <ul class="menu-rubriques">
             <li class="menuitem"><a href="<?php echo base_url(''); ?>">Accueil</a></li>

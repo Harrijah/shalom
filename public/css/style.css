@@ -224,6 +224,17 @@ h1, h2, .bann02 h3, .formules-para{
 
 
 /* *****************  Menu  ********************** */
+.menu{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+.menu img{
+  position: relative;
+  width: 100px;
+  padding: 5px;
+}
 nav{
   position: fixed;
   display: block;
