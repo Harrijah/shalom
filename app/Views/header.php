@@ -14,6 +14,17 @@
     <link rel="stylesheet" href="<?php echo base_url('css/style02.css'); ?>">
     <title>Shalom</title>
     </head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWYKT1TZ4T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); 
+
+    gtag('config', 'G-YWYKT1TZ4T');
+    </script>
+
 <body>
 
 <nav class="menu">
