@@ -55,7 +55,7 @@
             } else {
 
                 $email->setFrom('noreply@shalom.mg', 'Site web Shalom');
-                $email->setTo('contact@shalom.mg');
+                $email->setTo('jmcrakotoma@gmail.com');
                 // $email->setCC($data['email'], 'contact@shalom.mg');
                 $email->setBCC('andrianarivohari@gmail.com');
                 $email->setSubject('Demande de la part de ' . $data['nom']);
@@ -116,7 +116,7 @@
             } else {
 
                 $email->setFrom('noreply@shalom.mg', 'Site web Shalom');
-                $email->setTo('contact@shalom.mg');
+                $email->setTo('jmcrakotoma@gmail.com');
                 // $email->setCC($data['email'], 'contact@shalom.mg');
                 $email->setBCC('andrianarivohari@gmail.com');
                 $email->setSubject($demande .' de la part de ' . $data['nom']);
