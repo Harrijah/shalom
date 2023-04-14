@@ -27,26 +27,7 @@
 
 <body>
 
-<nav class="menu">
-    <div class="logo"><a href="<?php echo base_url(''); ?>"><img src="<?php echo base_url('image/shalom.png'); ?>" alt="logo" class="logo"></a></div>
-    <div class="menulist">
-        <ul class="menu-rubriques">
-            <li class="menuitem"><a href="<?php echo base_url(''); ?>" class="">Accueil</a></li>
-            <li class="internmenu">
-                <a class="dropbtn">Nos formules</a>
-                <ul class="dropdown-content">
-                    <li><a href="<?php echo base_url('internat'); ?>">Internat</a></li>
-                    <li><a href="<?php echo base_url('externat'); ?>">Externat</a></li>
-                </ul>
-            </li>
-            <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>" class="">A propos de nous</a></li>
-            <!-- <li class="menuitem"><a href="">Blog</a></li> -->
-            <li class="menuitem">
-                <a href="<?php echo base_url('contact'); ?>" class="">Contact</a>
-            </li>
-        </ul>
-    </div> 
-</nav>
+
 <div class="menumobile" id="menumobile02">
     <i class="fas fa-bars"></i>
 </div>
@@ -61,7 +42,6 @@
                 </ul>
             </li>
             <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>">A propos de nous</a></li>
-            <!-- <li class="menuitem"><a href="">Blog</a></li> -->
             <li class="menuitem"><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
         </ul>
     </div> 
@@ -69,17 +49,16 @@
     <div class="logo"><a href="<?php echo base_url(''); ?>"><img src="<?php echo base_url('image/shalom.png'); ?>" alt="logo" class="logo"></a></div>
     <div class="menulist">
         <ul class="menu-rubriques">
-            <li class="menuitem"><a href="<?php echo base_url(''); ?>">Accueil</a></li>
+            <li class="menuitem"><a href="<?php echo base_url(''); ?>" class="<?= ($maclasse == '')? 'active' : null; ?>">Accueil</a></li>
             <li class="internmenu">
-                <a class="dropbtn">Nos formules</a>
+                <a class="dropbtn <?= ($maclasse == 'internat' || $maclasse == 'externat')? 'active' : null; ?>">Nos formules</a>
                 <ul class="dropdown-content">
                     <li><a href="<?php echo base_url('internat'); ?>">Internat</a></li>
                     <li><a href="<?php echo base_url('externat'); ?>">Externat</a></li>
                 </ul>
             </li>
-            <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>">A propos de nous</a></li>
-            <!-- <li class="menuitem"><a href="">Blog</a></li> -->
-            <li class="menuitem"><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
+            <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>" class="<?= ($maclasse == 'aboutus')? 'active' : null; ?>">A propos de nous</a></li>
+            <li class="menuitem"><a href="<?php echo base_url('contact'); ?>" class="<?= ($maclasse == 'contact')? 'active' : null; ?>">Contact</a></li>
         </ul>
     </div> 
 </nav>

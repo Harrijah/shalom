@@ -7,8 +7,11 @@
 
         public function accueil()
         {
+            $uri = service('uri');
+            $lien = $uri->getSegment(2);
             $data =[
                 'title' => 'Shalom - Maison d\'Accueil',
+                'maclasse' => $lien,
             ];
             return view('header', $data)
             . view('banniere01')

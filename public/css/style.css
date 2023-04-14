@@ -221,6 +221,9 @@ h1, h2, .bann02 h3, .formules-para{
 .mybutton:active{
   transform: scale(0.8);
 }
+a{
+  color: var(--color03);
+}
 
 
 /* *****************  Menu  ********************** */
@@ -255,15 +258,18 @@ nav{
 }
 .menu li a, .dropdown-content li a, .dropbtn{
   display: block;
-  color: var(--color03);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   border: none;
 }
-.internat, .externat, .contact, .menu li a:hover, .dropdown-content a:hover, .active{
-  background: var(--color04);
+.menu li a:hover, .dropdown-content a:hover{
   color: black;
+  background: var(--color04);
+}
+.active{
+  color: black;
+  background: var(--color04);
 }
 .dropdown-content{
   display: none;

@@ -6,8 +6,11 @@
     {
         public function aboutus()
         {
+            $uri = service('uri');
+            $lien = $uri->getSegment(2);
             $data = [
-                'title' => 'Shalom - A propos de nous',
+                'title' => 'A propos de nous',
+                'maclasse' => $lien,
             ];
             return view('header', $data)
             . view('intro')
