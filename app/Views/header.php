@@ -49,7 +49,7 @@
     <div class="logo"><a href="<?php echo base_url(''); ?>"><img src="<?php echo base_url('image/shalom.png'); ?>" alt="logo" class="logo"></a></div>
     <div class="menulist">
         <ul class="menu-rubriques">
-            <li class="menuitem"><a href="<?php echo base_url(''); ?>" class="">Accueil</a></li>
+            <li class="menuitem"><a href="<?php echo base_url(''); ?>" class="<?= ($maclasse == '')? 'active' : null; ?>">Accueil</a></li>
             <li class="internmenu">
                 <a class="dropbtn <?= ($maclasse == 'internat' || $maclasse == 'externat')? 'active' : null; ?>">Nos formules</a>
                 <ul class="dropdown-content">

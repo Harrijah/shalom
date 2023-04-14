@@ -10,7 +10,7 @@
         public function contact()
         {
             $uri = service('uri');
-            $lien = $uri->getSegment(2);
+            $lien = $uri->getSegment(1);
             $data = [
                 'title' => 'Shalom - Maison d\'Accueil | Contact',
                 'maclasse' => $lien,

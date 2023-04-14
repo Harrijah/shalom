@@ -7,7 +7,7 @@
         public function aboutus()
         {
             $uri = service('uri');
-            $lien = $uri->getSegment(2);
+            $lien = $uri->getSegment(1);
             $data = [
                 'title' => 'A propos de nous',
                 'maclasse' => $lien,
