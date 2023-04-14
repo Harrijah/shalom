@@ -31,18 +31,18 @@
     <div class="logo"><a href="<?php echo base_url(''); ?>"><img src="<?php echo base_url('image/shalom.png'); ?>" alt="logo" class="logo"></a></div>
     <div class="menulist">
         <ul class="menu-rubriques">
-            <li class="menuitem"><a href="<?php echo base_url(''); ?>" class="<?= $maclasse; ?>">Accueil</a></li>
+            <li class="menuitem"><a href="<?php echo base_url(''); ?>" class="">Accueil</a></li>
             <li class="internmenu">
-                <a class="dropbtn <?php echo $maclasse; ?>">Nos formules</a>
+                <a class="dropbtn">Nos formules</a>
                 <ul class="dropdown-content">
                     <li><a href="<?php echo base_url('internat'); ?>">Internat</a></li>
                     <li><a href="<?php echo base_url('externat'); ?>">Externat</a></li>
                 </ul>
             </li>
-            <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>" class="<?php echo $maclasse; ?>">A propos de nous</a></li>
+            <li class="menuitem"><a href="<?php echo base_url('aboutus'); ?>" class="">A propos de nous</a></li>
             <!-- <li class="menuitem"><a href="">Blog</a></li> -->
             <li class="menuitem">
-                <a href="<?php echo base_url('contact'); ?>" class="<?php echo $maclasse; ?>">Contacts</a>
+                <a href="<?php echo base_url('contact'); ?>" class="">Contact</a>
             </li>
         </ul>
     </div> 
