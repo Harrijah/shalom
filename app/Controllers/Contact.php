@@ -9,7 +9,13 @@
     {
         public function contact()
         {
-            return view('header')
+            $uri = service('uri');
+            $lien = $uri->getSegment(1);
+            $data = [
+                'title' => 'Shalom - Maison d\'Accueil | Contact',
+                'maclasse' => $lien,
+            ];
+            return view('header', $data)
             . view('contact')
             . view('footer');
         }

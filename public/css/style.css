@@ -261,7 +261,7 @@ nav{
   text-decoration: none;
   border: none;
 }
-.menu li a:hover, .dropdown-content a:hover, .active{
+.internat, .externat, .contact, .menu li a:hover, .dropdown-content a:hover, .active{
   background: var(--color04);
   color: black;
 }

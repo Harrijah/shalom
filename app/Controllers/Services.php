@@ -6,7 +6,13 @@
     {
         public function internat()
         {
-            return view('header')
+            $uri = service('uri');
+            $lien = $uri->getSegment(1);
+            $data = [
+                'title' => 'Shalom - Maison d\'Accueil | Internat',
+                'maclasse' => $lien,
+            ];
+            return view('header', $data)
             . view('nosban01')
             . view('chambres')
             . view('nosbanx')
@@ -16,7 +22,13 @@
 
         public function externat()
         {
-            return view('header')
+            $uri = service('uri');
+            $lien = $uri->getSegment(1);
+            $data = [
+                'title' => 'Shalom - Maison d\'Accueil | Externat',
+                'maclasse' => $lien,
+            ];
+            return view('header', $data)
             . view('nosban02')
             . view('nosbanx')
             . view('banniere06')

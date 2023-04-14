@@ -7,7 +7,9 @@
 
         public function accueil()
         {
-            $data =[];
+            $data =[
+                'title' => 'Shalom - Maison d\'Accueil',
+            ];
             return view('header', $data)
             . view('banniere01')
             . view('banniere02')

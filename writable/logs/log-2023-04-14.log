@@ -1,0 +1,21 @@
+CRITICAL - 2023-04-14 13:21:00 --> Call to undefined function App\Controllers\services()
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 13:22:20 --> Call to undefined function App\Controllers\services()
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 13:22:22 --> Call to undefined function App\Controllers\services()
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
