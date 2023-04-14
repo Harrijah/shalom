@@ -6,7 +6,10 @@
     {
         public function aboutus()
         {
-            return view('header')
+            $data = [
+                'title' => 'Shalom - A propos de nous',
+            ];
+            return view('header', $data)
             . view('intro')
             . view('cibles') 
             . view('equipe')
